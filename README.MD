@@ -28,7 +28,7 @@ Required Tools :
 7. Install JSON Viewer in your browser
 
 
-Spring Boot Web MVC app notes.
+################ Spring Boot Web MVC app notes. ###################
 
 1. Spring controller should be annotated with @Controller (Do not use @RestController
 2. POM.XML changes
@@ -39,3 +39,7 @@ Spring Boot Web MVC app notes.
 3. Perform all the changes to viewresolvers in the WebMvcConfig.java file which extends WebMvcConfigurer
 	
 }
+
+
+############## Tips ##############
+1. Use TCPView to kill the existing ports running for tomcat server.

@@ -5,11 +5,11 @@
 <!DOCTYPE html >
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>Spring Boot CRUD Web MVC App</title>
 </head>
 <body>
-  <h2>Spring Security 4 - Custom login form example</h2>
+  <h2>Spring Security - Custom login form example</h2>
   <hr />
   <h4>Login Form</h4>
 

@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 
@@ -11,7 +13,7 @@
 		Spring boot will handle the resource mapping automcatically -->
 	<link rel="stylesheet" type="text/css" href="webjars/bootstrap/4.0.0-2/css/bootstrap.min.css" />
 	
-		<c:url value="/css/main.css" var="jstlCss" />
+		<c:url value="${pageContext.request.contextPath}/css/main.css" var="jstlCss" />
 	<link href="${jstlCss}" rel="stylesheet" />
 </head>
 <body>Welcome Message: ${message}

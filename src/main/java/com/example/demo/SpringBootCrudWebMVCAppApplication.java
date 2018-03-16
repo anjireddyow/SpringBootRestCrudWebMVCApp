@@ -1,5 +1,7 @@
 package com.example.demo;
 
+import java.util.Arrays;
+
 import javax.sql.DataSource;
 
 import org.slf4j.Logger;
@@ -10,6 +12,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.Bean;
 
 import com.example.demo.common.CommonConstants;
 
@@ -23,6 +27,7 @@ import com.example.demo.common.CommonConstants;
  * @author
  *
  */
+// @SpringBootApplication(scanBasePackages={"com.example"})
 @SpringBootApplication
 public class SpringBootCrudWebMVCAppApplication extends SpringBootServletInitializer implements CommandLineRunner {
 
@@ -37,6 +42,12 @@ public class SpringBootCrudWebMVCAppApplication extends SpringBootServletInitial
 	}
 
 	public static void main(String[] args) {
+
+		// SpringApplication sa = new
+		// SpringApplication(SpringBootCrudWebMVCAppApplication.class);
+		// sa.setLogStartupInfo(false);
+		// sa.run(args);
+
 		SpringApplication.run(SpringBootCrudWebMVCAppApplication.class, args);
 		// ApplicationContext actx =
 		// SpringApplication.run(SpringBootRestCrudAppApplication.class, args);
@@ -48,6 +59,21 @@ public class SpringBootCrudWebMVCAppApplication extends SpringBootServletInitial
 	public void run(String... args) throws Exception {
 		// TODO Auto-generated method stub
 		logger.info(CommonConstants.APP_NAME_FOR_LOG + "Datasource Name:" + datasource);
+	}
+
+	@Bean
+	public CommandLineRunner commandLineRunner(ApplicationContext ctx) {
+		return args -> {
+
+			System.out.println("Let's inspect the beans provided by Spring Boot:");
+
+			String[] beanNames = ctx.getBeanDefinitionNames();
+			Arrays.sort(beanNames);
+			for (String beanName : beanNames) {
+				System.out.println(beanName);
+			}
+
+		};
 	}
 }
 

@@ -2,6 +2,8 @@ package com.example.demo.controller;
 
 import java.util.List;
 
+import javax.servlet.http.HttpServletRequest;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.dao.DataAccessException;
@@ -18,7 +20,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.example.demo.config.CustomConfigurationProperties;
-import com.example.demo.dao.impl.EmployeeDaoImpl;
 import com.example.demo.exception.EmployeeNotFoundException;
 import com.example.demo.model.Employee;
 import com.example.demo.service.SpringBootRestCrudJDBCService;
@@ -44,8 +45,6 @@ public class SpringBootCrudMVCController {
 	 * <dependency> <groupId>com.fasterxml.jackson.dataformat</groupId>
 	 * <artifactId>jackson-dataformat-xml</artifactId> </dependency>
 	 */
-	@Autowired
-	private EmployeeDaoImpl employeeDAO;
 
 	@Autowired
 	private SpringBootRestCrudJDBCService springBootRestCrudJDBCService;
@@ -83,7 +82,6 @@ public class SpringBootCrudMVCController {
 	 */
 	@RequestMapping(value = "/welcome", method = RequestMethod.GET)
 	public String welcome(Model model) {
-		// modelMap.put("message", "Welcome to Spring Boot Rest CRUD MVC App");
 		model.addAttribute("message", "Welcome to Spring Boot Rest CRUD MVC App");
 		return "welcome";
 	}
@@ -93,17 +91,17 @@ public class SpringBootCrudMVCController {
 	 * @return home page
 	 */
 	@RequestMapping(value = "/home", method = RequestMethod.GET)
-	public ModelAndView homePage() {
+	public ModelAndView homePage(HttpServletRequest httpServletRequest) {
+		String appContextPath = httpServletRequest.getContextPath();
 		ModelAndView modelAndView = new ModelAndView();
 		modelAndView.setViewName("home");
 		// Get authenticated user name from SecurityContext
 		SecurityContext context = SecurityContextHolder.getContext();
 
 		modelAndView.addObject("message", "You are logged in as " + context.getAuthentication().getName());
-		// modelAndView.addObject("message", "Spring Boot Rest CRUD MVC App Home Page");
 		return modelAndView;
 	}
-	
+
 	@RequestMapping(value = "/login", method = RequestMethod.GET)
 	public String login(Model model) {
 		return "login";
@@ -112,62 +110,53 @@ public class SpringBootCrudMVCController {
 	/**
 	 * To retrieve
 	 * 
+	 * // URL: // http://localhost:8080/SomeContextPath/employees //
+	 * http://localhost:8080/SomeContextPath/employees.xml //
+	 * http://localhost:8080/SomeContextPath/employees.json // produces = {
+	 * MediaType.APPLICATION_JSON_VALUE, // MediaType.APPLICATION_XML_VALUE } --
+	 * This tags will be helpful // to return the content both in either JSON or XML
+	 * format
+	 * 
 	 * @return
 	 */
-
-	// URL:
-	// http://localhost:8080/SomeContextPath/employees
-	// http://localhost:8080/SomeContextPath/employees.xml
-	// http://localhost:8080/SomeContextPath/employees.json
-	// produces = { MediaType.APPLICATION_JSON_VALUE,
-	// MediaType.APPLICATION_XML_VALUE } -- This tags will be helpful
-	// to return the content both in either JSON or XML format
-	@RequestMapping(value = "/employees", //
-			method = RequestMethod.GET, //
-			produces = { MediaType.APPLICATION_JSON_VALUE, //
-					MediaType.APPLICATION_XML_VALUE })
+	@RequestMapping(value = "/employees", method = RequestMethod.GET, produces = { MediaType.APPLICATION_JSON_VALUE,
+			MediaType.APPLICATION_XML_VALUE })
 	@ResponseBody
 	public List<Employee> getEmployees() {
 		// return springBootRestCrudService.getEmployeeList();
 		return springBootRestCrudService.getEmployees();
 	}
 
-	// This is a GET request to retreive the resource (employee)
-	// {empNo} value will be dynamically passed from the url
-	// @PathVariable to be added for "empNo" parameter, to indicate empNo will be
-	// dynamically passed as a parameter
-	// Use Postman with GET request and Headers as
-	@RequestMapping(value = "/getEmployee/{empNo}", method = RequestMethod.GET, produces = {
-			MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE })
-	@ResponseBody
-	public Employee getEmployee(@PathVariable("empNo") String empNo) {
-		if ("04".equals(empNo)) {
-			throw new RuntimeException("Employee Number should not be 04");
-		}
-
-		if ("05".equals(empNo)) {
-			throw new EmployeeNotFoundException("Employee Number should not be 05");
-		}
-		return employeeDAO.getEmployee(empNo);
-	}
-
-	// This is a POST method for creating a resource (create a employee)
-	// Employee information will be passed as a JSON or XML and "@RequestBody" will
-	// be mapped with the passed employee object
-	// Below sample data to add Employee
-	// {
-	// "empNo": "04",
-	// "empName": "John04",
-	// "empPosition": "Analyst04"
-	// }
-	// @RequestMapping(value="/addEmployee", method = RequestMethod.POST, produces =
-	// {MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE})
+	// // This is a GET request to retreive the resource (employee)
+	// // {empNo} value will be dynamically passed from the url
+	// // @PathVariable to be added for "empNo" parameter, to indicate empNo will be
+	// // dynamically passed as a parameter
+	// // Use Postman with GET request and Headers as
+	// @RequestMapping(value = "/getEmployee/{empNo}", method = RequestMethod.GET,
+	// produces = {
+	// MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE })
 	// @ResponseBody
-	// public Map<String, Employee> addEmployee(@RequestBody Employee addEmployee) {
-	// return employeeDAO.addEmployee(addEmployee);
+	// public Employee getEmployee(@PathVariable("empNo") String empNo) {
+	// if ("04".equals(empNo)) {
+	// throw new RuntimeException("Employee Number should not be 04");
+	// }
+	//
+	// if ("05".equals(empNo)) {
+	// throw new EmployeeNotFoundException("Employee Number should not be 05");
+	// }
+	// return employeeDAO.getEmployee(empNo);
 	// }
 
-	// POST Request method for insert
+	/**
+	 * // This is a POST method for creating a resource (create a employee) //
+	 * Employee information will be passed as a JSON or XML and "@RequestBody" will
+	 * // be mapped with the passed employee object // Below sample data to add
+	 * Employee // { // "empNo": "04", // "empName": "John04", // "empPosition":
+	 * "Analyst04" // } // POST Request method for insert
+	 * 
+	 * @param addEmployee
+	 * @return
+	 */
 	@RequestMapping(value = "/addEmployee", method = RequestMethod.POST, produces = { MediaType.APPLICATION_JSON_VALUE,
 			MediaType.APPLICATION_XML_VALUE })
 	@ResponseBody
@@ -181,37 +170,20 @@ public class SpringBootCrudMVCController {
 		return addEmployeeStatus;
 	}
 
-	// Below sample data to update Employee using Postman with PUT request and
-	// update headers and body with the below JSON
-	// {
-	// "empNo": "04",
-	// "empName": "John04",
-	// "empPosition": "Analyst04"
-	// }
-	// @RequestMapping (value="/updateEmployee", method = RequestMethod.PUT,
-	// produces = {MediaType.APPLICATION_XML_VALUE,
-	// MediaType.APPLICATION_JSON_VALUE})
-	// @ResponseBody
-	// public Map<String, Employee> updateEmployee(@RequestBody Employee
-	// updateEmployee) {
-	// return employeeDAO.updateEmployee(updateEmployee);
-	// }
-
-	// PUT Request method for update
+	/**
+	 * // Below sample data to update Employee using Postman with PUT request and //
+	 * update headers and body with the below JSON // { // "empNo": "04", //
+	 * "empName": "John04", // "empPosition": "Analyst04" // } // PUT Request method
+	 * for update
+	 * 
+	 * @param updateEmployee
+	 */
 	@RequestMapping(value = "/updateEmployee", method = RequestMethod.PUT, produces = { MediaType.APPLICATION_XML_VALUE,
 			MediaType.APPLICATION_JSON_VALUE })
 	@ResponseBody
 	public void updateEmployee(@RequestBody Employee updateEmployee) {
 		springBootRestCrudJDBCService.updateEmployee(updateEmployee);
 	}
-
-	// @RequestMapping (value = "/deleteEmployee/{empNo}", method =
-	// RequestMethod.DELETE, produces = {MediaType.APPLICATION_XML_VALUE,
-	// MediaType.APPLICATION_JSON_VALUE})
-	// public Map<String, Employee> deleteEmployee(@PathVariable("empNo") String
-	// empNo) {
-	// return employeeDAO.deleteEmployee(empNo);
-	// }
 
 	// DELETE Request method for delete
 	@RequestMapping(value = "/deleteEmployee/{empNo}", method = RequestMethod.DELETE, produces = {

@@ -50,7 +50,8 @@ public class WebMvcConfig implements WebMvcConfigurer {
 //	     return resolver;
 //	 }  
 	 
-	// @Override
+	// Directly adding a view for a url
+//	  @Override
 	// public void addViewControllers(ViewControllerRegistry registry) {
 	// //this will map uri to jsp view directly without a controller
 	// registry.addViewController("/hi")

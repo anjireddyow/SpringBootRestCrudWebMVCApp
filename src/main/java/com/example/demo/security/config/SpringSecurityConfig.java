@@ -125,7 +125,7 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
 						System.out.println(authority.getAuthority());
 					}
 					System.out.println(auth.getName());
-					res.sendRedirect("/home"); // Redirect user to index/home page
+					res.sendRedirect(req.getContextPath()+"/home"); // Redirect user to index/home page
 				})
 				// .defaultSuccessUrl("/") // URL, where user will go after authenticating
 				// successfully.
@@ -138,7 +138,7 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
 						errMsg = "Unknown error - " + exp.getMessage();
 					}
 					req.getSession().setAttribute("message", errMsg);
-					res.sendRedirect("/login"); // Redirect user to login page with error message.
+					res.sendRedirect(req.getContextPath()+"/login"); // Redirect user to login page with error message.
 				})
 				// .failureUrl("/login?error") // URL, where user will go after authentication
 				// failure.
@@ -147,7 +147,7 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
 				.and().logout().logoutUrl("/signout") // Specifies the logout URL, default URL is '/logout'
 				.logoutSuccessHandler((req, res, auth) -> { // Logout handler called after successful logout
 					req.getSession().setAttribute("message", "You are logged out successfully.");
-					res.sendRedirect("/login"); // Redirect user to login page with message.
+					res.sendRedirect(req.getContextPath()+"/login"); // Redirect user to login page with message.
 				})
 				// .logoutSuccessUrl("/login") // URL, where user will be redirect after
 				// successful
