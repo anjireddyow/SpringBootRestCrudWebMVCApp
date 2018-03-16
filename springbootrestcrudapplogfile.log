@@ -7913,3 +7913,1106 @@ Caused by: java.lang.Error: Unresolved compilation problems:
 2018-Mar-16 14:57:02.005 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Started SpringBootCrudWebMVCAppApplication in 1.477 seconds (JVM running for 2633.158)
 2018-Mar-16 14:57:02.007 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
 2018-Mar-16 14:57:02.012 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 15:01:27.338 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Starting SpringBootCrudWebMVCAppApplication on E5570-153 with PID 8388 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 15:01:27.338 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 15:01:28.457 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:01:28.471 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 15:01:28.538 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:01:28.539 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 15:01:29.078 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Started SpringBootCrudWebMVCAppApplication in 1.869 seconds (JVM running for 2900.221)
+2018-Mar-16 15:01:29.080 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 15:01:29.084 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 15:03:31.906 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Starting SpringBootCrudWebMVCAppApplication on E5570-153 with PID 8388 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 15:03:31.907 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 15:03:32.685 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:03:32.690 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 15:03:32.750 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:03:32.751 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 15:03:33.373 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Started SpringBootCrudWebMVCAppApplication in 1.579 seconds (JVM running for 3024.512)
+2018-Mar-16 15:03:33.375 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 15:03:33.380 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 15:03:38.791 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Starting SpringBootCrudWebMVCAppApplication on E5570-153 with PID 8388 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 15:03:38.791 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 15:03:39.539 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:03:39.543 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 15:03:39.601 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:03:39.601 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 15:03:40.214 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Started SpringBootCrudWebMVCAppApplication in 1.574 seconds (JVM running for 3031.352)
+2018-Mar-16 15:03:40.216 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 15:03:40.223 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 15:04:01.044 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Starting SpringBootCrudWebMVCAppApplication on E5570-153 with PID 8388 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 15:04:01.044 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 15:04:01.962 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:04:01.966 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 15:04:02.025 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:04:02.026 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 15:04:02.566 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Started SpringBootCrudWebMVCAppApplication in 1.631 seconds (JVM running for 3053.704)
+2018-Mar-16 15:04:02.569 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 15:04:02.573 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 15:04:19.294 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Starting SpringBootCrudWebMVCAppApplication on E5570-153 with PID 8388 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 15:04:19.294 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 15:04:20.325 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:04:20.335 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 15:04:20.439 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:04:20.440 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 15:04:21.068 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Started SpringBootCrudWebMVCAppApplication in 1.883 seconds (JVM running for 3072.205)
+2018-Mar-16 15:04:21.070 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 15:04:21.075 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 15:08:19.889 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Starting SpringBootCrudWebMVCAppApplication on E5570-153 with PID 8388 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 15:08:19.889 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 15:08:20.617 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:08:20.621 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 15:08:20.680 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:08:20.723 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 15:08:21.226 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Started SpringBootCrudWebMVCAppApplication in 1.449 seconds (JVM running for 3312.355)
+2018-Mar-16 15:08:21.228 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 15:08:21.232 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 15:08:55.565 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Starting SpringBootCrudWebMVCAppApplication on E5570-153 with PID 8388 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 15:08:55.565 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 15:08:56.363 ERROR [restartedMain] o.s.b.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'loginController' defined in file [C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes\com\example\demo\controller\LoginController.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.example.demo.controller.LoginController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	SessionAttributes cannot be resolved to a type
+	String literal is not properly closed by a double-quote
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1232)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1131)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:388)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1234)
+	at com.example.demo.SpringBootCrudWebMVCAppApplication.main(SpringBootCrudWebMVCAppApplication.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.example.demo.controller.LoginController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	SessionAttributes cannot be resolved to a type
+	String literal is not properly closed by a double-quote
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:182)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1224)
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	SessionAttributes cannot be resolved to a type
+	String literal is not properly closed by a double-quote
+
+	at com.example.demo.controller.LoginController.<init>(LoginController.java:15)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:170)
+	... 24 common frames omitted
+2018-Mar-16 15:08:57.908 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Starting SpringBootCrudWebMVCAppApplication on E5570-153 with PID 8388 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 15:08:57.908 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 15:08:57.921 ERROR [restartedMain] o.s.b.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to read candidate component class: file [C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes\com\example\demo\controller\LoginController.class]; nested exception is java.lang.ArrayIndexOutOfBoundsException: 1362
+	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:454)
+	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.findCandidateComponents(ClassPathScanningCandidateComponentProvider.java:316)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:275)
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:132)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:284)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:241)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:198)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:166)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:316)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:233)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:273)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:93)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:693)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:531)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:388)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1234)
+	at com.example.demo.SpringBootCrudWebMVCAppApplication.main(SpringBootCrudWebMVCAppApplication.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 1362
+	at org.springframework.asm.ClassReader.readUnsignedShort(ClassReader.java:2548)
+	at org.springframework.asm.ClassReader.readUTF8(ClassReader.java:2609)
+	at org.springframework.asm.ClassReader.readAnnotationValues(ClassReader.java:2012)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:676)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:527)
+	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:65)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:103)
+	at org.springframework.core.type.classreading.CachingMetadataReaderFactory.getMetadataReader(CachingMetadataReaderFactory.java:123)
+	at org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider.scanCandidateComponents(ClassPathScanningCandidateComponentProvider.java:430)
+	... 25 common frames omitted
+2018-Mar-16 15:09:08.530 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Starting SpringBootCrudWebMVCAppApplication on E5570-153 with PID 8388 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 15:09:08.530 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 15:09:09.240 ERROR [restartedMain] o.s.b.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'loginController' defined in file [C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes\com\example\demo\controller\LoginController.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.example.demo.controller.LoginController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	User cannot be resolved to a type
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1232)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1131)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:388)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1234)
+	at com.example.demo.SpringBootCrudWebMVCAppApplication.main(SpringBootCrudWebMVCAppApplication.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.example.demo.controller.LoginController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	User cannot be resolved to a type
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:182)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1224)
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	User cannot be resolved to a type
+
+	at com.example.demo.controller.LoginController.<init>(LoginController.java:16)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:170)
+	... 24 common frames omitted
+2018-Mar-16 15:09:18.259 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Starting SpringBootCrudWebMVCAppApplication on E5570-153 with PID 8388 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 15:09:18.259 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 15:09:19.044 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:09:19.048 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 15:09:19.104 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:09:19.106 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 15:09:19.602 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Started SpringBootCrudWebMVCAppApplication in 1.468 seconds (JVM running for 3370.728)
+2018-Mar-16 15:09:19.604 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 15:09:19.608 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 15:10:12.953 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Starting SpringBootCrudWebMVCAppApplication on E5570-153 with PID 8388 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 15:10:12.953 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 15:10:13.671 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:10:13.677 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 15:10:13.734 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:10:13.735 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 15:10:14.253 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Started SpringBootCrudWebMVCAppApplication in 1.41 seconds (JVM running for 3425.378)
+2018-Mar-16 15:10:14.255 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 15:10:14.260 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 15:10:54.086 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Starting SpringBootCrudWebMVCAppApplication on E5570-153 with PID 8388 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 15:10:54.087 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 15:10:54.836 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:10:54.840 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 15:10:54.904 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:10:54.905 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 15:10:55.439 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Started SpringBootCrudWebMVCAppApplication in 1.461 seconds (JVM running for 3466.562)
+2018-Mar-16 15:10:55.441 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 15:10:55.446 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 15:13:56.044 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Starting SpringBootCrudWebMVCAppApplication on E5570-153 with PID 8388 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 15:13:56.044 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 15:13:56.764 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:13:56.768 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 15:13:56.823 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:13:56.824 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 15:13:57.362 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Started SpringBootCrudWebMVCAppApplication in 1.429 seconds (JVM running for 3648.479)
+2018-Mar-16 15:13:57.364 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 15:13:57.369 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 15:14:04.673 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Starting SpringBootCrudWebMVCAppApplication on E5570-153 with PID 8388 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 15:14:04.674 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 15:14:05.695 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:14:05.700 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 15:14:05.770 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:14:05.771 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 15:14:06.713 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Started SpringBootCrudWebMVCAppApplication in 2.241 seconds (JVM running for 3657.829)
+2018-Mar-16 15:14:06.715 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 15:14:06.721 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 15:15:19.701 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Starting SpringBootCrudWebMVCAppApplication on E5570-153 with PID 8388 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 15:15:19.701 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 15:15:20.445 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:15:20.449 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 15:15:20.503 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:15:20.504 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 15:15:21.032 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Started SpringBootCrudWebMVCAppApplication in 1.443 seconds (JVM running for 3732.146)
+2018-Mar-16 15:15:21.035 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 15:15:21.040 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 15:21:26.674 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Starting SpringBootCrudWebMVCAppApplication on E5570-153 with PID 8388 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 15:21:26.674 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 15:21:27.483 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:21:27.487 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 15:21:27.550 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:21:27.551 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 15:21:28.092 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Started SpringBootCrudWebMVCAppApplication in 1.546 seconds (JVM running for 4099.192)
+2018-Mar-16 15:21:28.094 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 15:21:28.099 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 15:21:32.068 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Starting SpringBootCrudWebMVCAppApplication on E5570-153 with PID 8388 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 15:21:32.068 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 15:21:32.869 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:21:32.874 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 15:21:32.934 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:21:32.937 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 15:21:33.516 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Started SpringBootCrudWebMVCAppApplication in 1.576 seconds (JVM running for 4104.617)
+2018-Mar-16 15:21:33.519 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 15:21:33.524 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 15:21:57.283 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Starting SpringBootCrudWebMVCAppApplication on E5570-153 with PID 8388 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 15:21:57.284 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 15:21:58.119 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:21:58.123 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 15:21:58.209 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:21:58.210 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 15:21:58.755 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Started SpringBootCrudWebMVCAppApplication in 1.59 seconds (JVM running for 4129.855)
+2018-Mar-16 15:21:58.758 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 15:21:58.763 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 15:22:03.074 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Starting SpringBootCrudWebMVCAppApplication on E5570-153 with PID 8388 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 15:22:03.075 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 15:22:04.185 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:22:04.189 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 15:22:04.260 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:22:04.262 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 15:22:04.867 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Started SpringBootCrudWebMVCAppApplication in 1.986 seconds (JVM running for 4135.966)
+2018-Mar-16 15:22:04.870 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 15:22:04.875 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 15:22:49.332 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Starting SpringBootCrudWebMVCAppApplication on E5570-153 with PID 8388 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 15:22:49.332 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 15:22:50.192 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:22:50.200 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 15:22:50.264 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:22:50.265 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 15:22:50.937 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Started SpringBootCrudWebMVCAppApplication in 1.74 seconds (JVM running for 4182.035)
+2018-Mar-16 15:22:50.940 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 15:22:50.946 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 15:23:20.410 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Starting SpringBootCrudWebMVCAppApplication on E5570-153 with PID 8388 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 15:23:20.410 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 15:23:21.204 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:23:21.208 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 15:23:21.270 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:23:21.281 ERROR [restartedMain] o.s.b.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springSecurityFilterChain' defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	SessionCreationPolicy cannot be resolved to a variable
+	Syntax error, insert ";" to complete Statement
+
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:587)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1250)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1099)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:304)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:388)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1234)
+	at com.example.demo.SpringBootCrudWebMVCAppApplication.main(SpringBootCrudWebMVCAppApplication.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	SessionCreationPolicy cannot be resolved to a variable
+	Syntax error, insert ";" to complete Statement
+
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:579)
+	... 25 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	SessionCreationPolicy cannot be resolved to a variable
+	Syntax error, insert ";" to complete Statement
+
+	at com.example.demo.security.config.SpringSecurityConfig.configure(SpringSecurityConfig.java:125)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.getHttp(WebSecurityConfigurerAdapter.java:230)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.init(WebSecurityConfigurerAdapter.java:321)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.init(WebSecurityConfigurerAdapter.java:92)
+	at com.example.demo.security.config.SpringSecurityConfig$$EnhancerBySpringCGLIB$$5982a024.init(<generated>)
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.init(AbstractConfiguredSecurityBuilder.java:371)
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.doBuild(AbstractConfiguredSecurityBuilder.java:325)
+	at org.springframework.security.config.annotation.AbstractSecurityBuilder.build(AbstractSecurityBuilder.java:41)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration.springSecurityFilterChain(WebSecurityConfiguration.java:104)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$$EnhancerBySpringCGLIB$$1e926dab.CGLIB$springSecurityFilterChain$3(<generated>)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$$EnhancerBySpringCGLIB$$1e926dab$$FastClassBySpringCGLIB$$f3b5a1a7.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:361)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$$EnhancerBySpringCGLIB$$1e926dab.springSecurityFilterChain(<generated>)
+	at sun.reflect.GeneratedMethodAccessor399.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 26 common frames omitted
+2018-Mar-16 15:23:23.269 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Starting SpringBootCrudWebMVCAppApplication on E5570-153 with PID 8388 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 15:23:23.269 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 15:23:24.072 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:23:24.076 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 15:23:24.134 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:23:24.145 ERROR [restartedMain] o.s.b.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springSecurityFilterChain' defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	Syntax error, insert ";" to complete Statement
+
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:587)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1250)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1099)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:304)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:388)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1234)
+	at com.example.demo.SpringBootCrudWebMVCAppApplication.main(SpringBootCrudWebMVCAppApplication.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	Syntax error, insert ";" to complete Statement
+
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:579)
+	... 25 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	Syntax error, insert ";" to complete Statement
+
+	at com.example.demo.security.config.SpringSecurityConfig.configure(SpringSecurityConfig.java:126)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.getHttp(WebSecurityConfigurerAdapter.java:230)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.init(WebSecurityConfigurerAdapter.java:321)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.init(WebSecurityConfigurerAdapter.java:92)
+	at com.example.demo.security.config.SpringSecurityConfig$$EnhancerBySpringCGLIB$$5982a024.init(<generated>)
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.init(AbstractConfiguredSecurityBuilder.java:371)
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.doBuild(AbstractConfiguredSecurityBuilder.java:325)
+	at org.springframework.security.config.annotation.AbstractSecurityBuilder.build(AbstractSecurityBuilder.java:41)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration.springSecurityFilterChain(WebSecurityConfiguration.java:104)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$$EnhancerBySpringCGLIB$$1e926dab.CGLIB$springSecurityFilterChain$3(<generated>)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$$EnhancerBySpringCGLIB$$1e926dab$$FastClassBySpringCGLIB$$f3b5a1a7.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:361)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$$EnhancerBySpringCGLIB$$1e926dab.springSecurityFilterChain(<generated>)
+	at sun.reflect.GeneratedMethodAccessor399.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 26 common frames omitted
+2018-Mar-16 15:25:41.893 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Starting SpringBootCrudWebMVCAppApplication on E5570-153 with PID 8388 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 15:25:41.893 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 15:25:42.885 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:25:42.893 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 15:25:42.980 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:25:42.981 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 15:25:43.626 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Started SpringBootCrudWebMVCAppApplication in 1.866 seconds (JVM running for 4354.717)
+2018-Mar-16 15:25:43.629 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 15:25:43.634 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 15:26:02.659 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Starting SpringBootCrudWebMVCAppApplication on E5570-153 with PID 8388 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 15:26:02.660 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 15:26:03.140 ERROR [restartedMain] o.s.b.SpringApplication - Application run failed
+java.lang.IllegalStateException: Cannot load configuration class: com.example.demo.config.WebMvcConfig
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.enhanceConfigurationClasses(ConfigurationClassPostProcessor.java:416)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanFactory(ConfigurationClassPostProcessor.java:254)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:284)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:128)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:693)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:531)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:388)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1234)
+	at com.example.demo.SpringBootCrudWebMVCAppApplication.main(SpringBootCrudWebMVCAppApplication.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Unable to load cache item
+	at org.springframework.cglib.core.internal.LoadingCache.createEntry(LoadingCache.java:79)
+	at org.springframework.cglib.core.internal.LoadingCache.get(LoadingCache.java:34)
+	at org.springframework.cglib.core.AbstractClassGenerator$ClassLoaderData.get(AbstractClassGenerator.java:116)
+	at org.springframework.cglib.core.AbstractClassGenerator.create(AbstractClassGenerator.java:291)
+	at org.springframework.cglib.proxy.Enhancer.createHelper(Enhancer.java:480)
+	at org.springframework.cglib.proxy.Enhancer.createClass(Enhancer.java:337)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer.createClass(ConfigurationClassEnhancer.java:138)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer.enhance(ConfigurationClassEnhancer.java:110)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.enhanceConfigurationClasses(ConfigurationClassPostProcessor.java:405)
+	... 17 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: HttpSessionEventPublisher
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethods(Class.java:1975)
+	at org.springframework.cglib.core.ReflectUtils.addAllMethods(ReflectUtils.java:416)
+	at org.springframework.cglib.proxy.Enhancer.getMethods(Enhancer.java:540)
+	at org.springframework.cglib.proxy.Enhancer.generateClass(Enhancer.java:575)
+	at org.springframework.cglib.transform.TransformingClassGenerator.generateClass(TransformingClassGenerator.java:33)
+	at org.springframework.cglib.core.DefaultGeneratorStrategy.generate(DefaultGeneratorStrategy.java:25)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanFactoryAwareGeneratorStrategy.generate(ConfigurationClassEnhancer.java:253)
+	at org.springframework.cglib.core.AbstractClassGenerator.generate(AbstractClassGenerator.java:329)
+	at org.springframework.cglib.proxy.Enhancer.generate(Enhancer.java:492)
+	at org.springframework.cglib.core.AbstractClassGenerator$ClassLoaderData$3.apply(AbstractClassGenerator.java:93)
+	at org.springframework.cglib.core.AbstractClassGenerator$ClassLoaderData$3.apply(AbstractClassGenerator.java:91)
+	at org.springframework.cglib.core.internal.LoadingCache$2.call(LoadingCache.java:54)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.springframework.cglib.core.internal.LoadingCache.createEntry(LoadingCache.java:61)
+	... 25 common frames omitted
+Caused by: java.lang.ClassNotFoundException: HttpSessionEventPublisher
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:148)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 41 common frames omitted
+2018-Mar-16 15:26:06.808 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Starting SpringBootCrudWebMVCAppApplication on E5570-153 with PID 8388 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 15:26:06.808 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 15:26:07.672 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:26:07.679 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 15:26:07.745 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:26:07.746 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 15:26:08.415 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Started SpringBootCrudWebMVCAppApplication in 1.787 seconds (JVM running for 4379.505)
+2018-Mar-16 15:26:08.418 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 15:26:08.429 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 15:26:14.718 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Starting SpringBootCrudWebMVCAppApplication on E5570-153 with PID 8388 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 15:26:14.719 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 15:26:15.560 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:26:15.564 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 15:26:15.662 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:26:15.663 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 15:26:16.265 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Started SpringBootCrudWebMVCAppApplication in 1.669 seconds (JVM running for 4387.355)
+2018-Mar-16 15:26:16.268 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 15:26:16.272 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 15:26:28.414 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Starting SpringBootCrudWebMVCAppApplication on E5570-153 with PID 8388 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 15:26:28.415 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 15:26:29.270 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:26:29.274 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 15:26:29.355 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:26:29.356 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 15:26:29.889 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Started SpringBootCrudWebMVCAppApplication in 1.594 seconds (JVM running for 4400.979)
+2018-Mar-16 15:26:29.892 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 15:26:29.896 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 15:27:50.549 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Starting SpringBootCrudWebMVCAppApplication on E5570-153 with PID 8388 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 15:27:50.550 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 15:27:51.344 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:27:51.348 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 15:27:51.411 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:27:51.412 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 15:27:52.035 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Started SpringBootCrudWebMVCAppApplication in 1.598 seconds (JVM running for 4483.121)
+2018-Mar-16 15:27:52.037 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 15:27:52.041 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 15:27:59.699 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Starting SpringBootCrudWebMVCAppApplication on E5570-153 with PID 8388 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 15:27:59.699 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 15:28:00.479 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:28:00.482 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 15:28:00.537 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:28:00.539 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 15:28:01.323 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Started SpringBootCrudWebMVCAppApplication in 1.743 seconds (JVM running for 4492.409)
+2018-Mar-16 15:28:01.326 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 15:28:01.340 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 15:28:28.780 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Starting SpringBootCrudWebMVCAppApplication on E5570-153 with PID 8388 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 15:28:28.780 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 15:28:29.567 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:28:29.571 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 15:28:29.639 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:28:29.649 ERROR [restartedMain] o.s.b.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springSecurityFilterChain' defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	The method expiredUrl(String) is undefined for the type SessionManagementConfigurer<HttpSecurity>
+
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:587)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1250)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1099)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:304)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:388)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1234)
+	at com.example.demo.SpringBootCrudWebMVCAppApplication.main(SpringBootCrudWebMVCAppApplication.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	The method expiredUrl(String) is undefined for the type SessionManagementConfigurer<HttpSecurity>
+
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:579)
+	... 25 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	The method expiredUrl(String) is undefined for the type SessionManagementConfigurer<HttpSecurity>
+
+	at com.example.demo.security.config.SpringSecurityConfig.configure(SpringSecurityConfig.java:130)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.getHttp(WebSecurityConfigurerAdapter.java:230)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.init(WebSecurityConfigurerAdapter.java:321)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.init(WebSecurityConfigurerAdapter.java:92)
+	at com.example.demo.security.config.SpringSecurityConfig$$EnhancerBySpringCGLIB$$5982a024.init(<generated>)
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.init(AbstractConfiguredSecurityBuilder.java:371)
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.doBuild(AbstractConfiguredSecurityBuilder.java:325)
+	at org.springframework.security.config.annotation.AbstractSecurityBuilder.build(AbstractSecurityBuilder.java:41)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration.springSecurityFilterChain(WebSecurityConfiguration.java:104)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$$EnhancerBySpringCGLIB$$1e926dab.CGLIB$springSecurityFilterChain$3(<generated>)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$$EnhancerBySpringCGLIB$$1e926dab$$FastClassBySpringCGLIB$$f3b5a1a7.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:361)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$$EnhancerBySpringCGLIB$$1e926dab.springSecurityFilterChain(<generated>)
+	at sun.reflect.GeneratedMethodAccessor399.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 26 common frames omitted
+2018-Mar-16 15:31:04.871 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Starting SpringBootCrudWebMVCAppApplication on E5570-153 with PID 8388 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 15:31:04.873 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 15:31:05.730 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:31:05.737 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 15:31:05.799 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:31:05.800 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 15:31:06.386 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Started SpringBootCrudWebMVCAppApplication in 1.641 seconds (JVM running for 4677.466)
+2018-Mar-16 15:31:06.389 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 15:31:06.395 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 15:31:39.713 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Starting SpringBootCrudWebMVCAppApplication on E5570-153 with PID 8388 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 15:31:39.714 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 15:31:40.657 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:31:40.661 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 15:31:40.721 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:31:40.722 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 15:31:41.305 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Started SpringBootCrudWebMVCAppApplication in 1.822 seconds (JVM running for 4712.384)
+2018-Mar-16 15:31:41.308 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 15:31:41.316 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 15:32:59.237 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Starting SpringBootCrudWebMVCAppApplication on E5570-153 with PID 8388 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 15:32:59.238 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 15:33:00.322 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:33:00.326 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 15:33:00.404 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:33:00.406 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 15:33:01.221 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Started SpringBootCrudWebMVCAppApplication in 2.115 seconds (JVM running for 4792.296)
+2018-Mar-16 15:33:01.223 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 15:33:01.230 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 15:35:27.639 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Starting SpringBootCrudWebMVCAppApplication on E5570-153 with PID 8388 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 15:35:27.640 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 15:35:28.839 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:35:28.843 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 15:35:28.906 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:35:28.907 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 15:35:29.430 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Started SpringBootCrudWebMVCAppApplication in 1.972 seconds (JVM running for 4940.5)
+2018-Mar-16 15:35:29.432 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 15:35:29.436 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 15:35:59.642 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Starting SpringBootCrudWebMVCAppApplication on E5570-153 with PID 8388 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 15:35:59.642 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 15:36:00.373 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:36:00.377 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 15:36:00.440 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:36:00.440 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 15:36:01.059 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Started SpringBootCrudWebMVCAppApplication in 1.537 seconds (JVM running for 4972.129)
+2018-Mar-16 15:36:01.061 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 15:36:01.066 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 15:36:04.370 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Starting SpringBootCrudWebMVCAppApplication on E5570-153 with PID 8388 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 15:36:04.370 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 15:36:05.080 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:36:05.085 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 15:36:05.142 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:36:05.143 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 15:36:05.668 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Started SpringBootCrudWebMVCAppApplication in 1.412 seconds (JVM running for 4976.738)
+2018-Mar-16 15:36:05.671 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 15:36:05.676 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 15:37:16.732 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Starting SpringBootCrudWebMVCAppApplication on E5570-153 with PID 8388 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 15:37:16.732 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 15:37:17.527 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:37:17.532 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 15:37:17.593 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:37:17.594 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 15:37:18.181 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Started SpringBootCrudWebMVCAppApplication in 1.559 seconds (JVM running for 5049.248)
+2018-Mar-16 15:37:18.184 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 15:37:18.189 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 15:40:24.568 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Starting SpringBootCrudWebMVCAppApplication on E5570-153 with PID 8388 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 15:40:24.568 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 15:40:25.440 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:40:25.446 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 15:40:25.516 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:40:25.518 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 15:40:26.268 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Started SpringBootCrudWebMVCAppApplication in 1.821 seconds (JVM running for 5237.328)
+2018-Mar-16 15:40:26.271 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 15:40:26.275 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 15:40:58.147 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Starting SpringBootCrudWebMVCAppApplication on E5570-153 with PID 8388 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 15:40:58.148 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 15:40:58.898 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:40:58.902 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 15:40:58.963 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:40:58.966 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 15:40:59.531 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Started SpringBootCrudWebMVCAppApplication in 1.497 seconds (JVM running for 5270.589)
+2018-Mar-16 15:40:59.533 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 15:40:59.537 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 15:42:42.636 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Starting SpringBootCrudWebMVCAppApplication on E5570-153 with PID 8388 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 15:42:42.636 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 15:42:43.526 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:42:43.543 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 15:42:43.617 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:42:43.618 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 15:42:44.234 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Started SpringBootCrudWebMVCAppApplication in 1.713 seconds (JVM running for 5375.289)
+2018-Mar-16 15:42:44.237 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 15:42:44.242 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 15:43:37.486 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Starting SpringBootCrudWebMVCAppApplication on E5570-153 with PID 8388 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 15:43:37.486 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 15:43:38.251 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:43:38.255 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 15:43:38.310 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:43:38.321 ERROR [restartedMain] o.s.b.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springSecurityFilterChain' defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	The method invalidSessionUrl(String) is undefined for the type SessionManagementConfigurer<HttpSecurity>.ConcurrencyControlConfigurer
+
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:587)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1250)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1099)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:304)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:388)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1234)
+	at com.example.demo.SpringBootCrudWebMVCAppApplication.main(SpringBootCrudWebMVCAppApplication.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	The method invalidSessionUrl(String) is undefined for the type SessionManagementConfigurer<HttpSecurity>.ConcurrencyControlConfigurer
+
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:579)
+	... 25 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	The method invalidSessionUrl(String) is undefined for the type SessionManagementConfigurer<HttpSecurity>.ConcurrencyControlConfigurer
+
+	at com.example.demo.security.config.SpringSecurityConfig.configure(SpringSecurityConfig.java:128)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.getHttp(WebSecurityConfigurerAdapter.java:230)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.init(WebSecurityConfigurerAdapter.java:321)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.init(WebSecurityConfigurerAdapter.java:92)
+	at com.example.demo.security.config.SpringSecurityConfig$$EnhancerBySpringCGLIB$$5982a024.init(<generated>)
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.init(AbstractConfiguredSecurityBuilder.java:371)
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.doBuild(AbstractConfiguredSecurityBuilder.java:325)
+	at org.springframework.security.config.annotation.AbstractSecurityBuilder.build(AbstractSecurityBuilder.java:41)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration.springSecurityFilterChain(WebSecurityConfiguration.java:104)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$$EnhancerBySpringCGLIB$$1e926dab.CGLIB$springSecurityFilterChain$3(<generated>)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$$EnhancerBySpringCGLIB$$1e926dab$$FastClassBySpringCGLIB$$f3b5a1a7.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:361)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$$EnhancerBySpringCGLIB$$1e926dab.springSecurityFilterChain(<generated>)
+	at sun.reflect.GeneratedMethodAccessor399.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 26 common frames omitted
+2018-Mar-16 15:43:47.925 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Starting SpringBootCrudWebMVCAppApplication on E5570-153 with PID 8388 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 15:43:47.925 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 15:43:48.635 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:43:48.639 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 15:43:48.693 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:43:48.702 ERROR [restartedMain] o.s.b.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springSecurityFilterChain' defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	The method invalidSessionUrl(String) is undefined for the type SessionManagementConfigurer<HttpSecurity>.ConcurrencyControlConfigurer
+
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:587)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1250)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1099)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:502)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:310)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:304)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:388)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1234)
+	at com.example.demo.SpringBootCrudWebMVCAppApplication.main(SpringBootCrudWebMVCAppApplication.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	The method invalidSessionUrl(String) is undefined for the type SessionManagementConfigurer<HttpSecurity>.ConcurrencyControlConfigurer
+
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:579)
+	... 25 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	The method invalidSessionUrl(String) is undefined for the type SessionManagementConfigurer<HttpSecurity>.ConcurrencyControlConfigurer
+
+	at com.example.demo.security.config.SpringSecurityConfig.configure(SpringSecurityConfig.java:128)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.getHttp(WebSecurityConfigurerAdapter.java:230)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.init(WebSecurityConfigurerAdapter.java:321)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.init(WebSecurityConfigurerAdapter.java:92)
+	at com.example.demo.security.config.SpringSecurityConfig$$EnhancerBySpringCGLIB$$5982a024.init(<generated>)
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.init(AbstractConfiguredSecurityBuilder.java:371)
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.doBuild(AbstractConfiguredSecurityBuilder.java:325)
+	at org.springframework.security.config.annotation.AbstractSecurityBuilder.build(AbstractSecurityBuilder.java:41)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration.springSecurityFilterChain(WebSecurityConfiguration.java:104)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$$EnhancerBySpringCGLIB$$1e926dab.CGLIB$springSecurityFilterChain$3(<generated>)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$$EnhancerBySpringCGLIB$$1e926dab$$FastClassBySpringCGLIB$$f3b5a1a7.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:361)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$$EnhancerBySpringCGLIB$$1e926dab.springSecurityFilterChain(<generated>)
+	at sun.reflect.GeneratedMethodAccessor399.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 26 common frames omitted
+2018-Mar-16 15:44:15.457 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Starting SpringBootCrudWebMVCAppApplication on E5570-153 with PID 8388 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 15:44:15.457 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 15:44:16.186 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:44:16.191 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 15:44:16.246 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:44:16.247 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 15:44:17.566 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Started SpringBootCrudWebMVCAppApplication in 2.218 seconds (JVM running for 5468.618)
+2018-Mar-16 15:44:17.568 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 15:44:17.572 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 15:44:22.411 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Starting SpringBootCrudWebMVCAppApplication on E5570-153 with PID 8388 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 15:44:22.412 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 15:44:23.157 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:44:23.162 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 15:44:23.217 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:44:23.218 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 15:44:23.736 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Started SpringBootCrudWebMVCAppApplication in 1.434 seconds (JVM running for 5474.787)
+2018-Mar-16 15:44:23.739 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 15:44:23.743 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 15:45:25.351 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Starting SpringBootCrudWebMVCAppApplication on E5570-153 with PID 8388 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 15:45:25.351 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 15:45:25.677 ERROR [restartedMain] o.s.b.SpringApplication - Application run failed
+java.lang.IllegalStateException: Error processing condition on org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration.propertySourcesPlaceholderConfigurer
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:64)
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:109)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForBeanMethod(ConfigurationClassBeanDefinitionReader.java:179)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:141)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:117)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:328)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:233)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:273)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:93)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:693)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:531)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:388)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1234)
+	at com.example.demo.SpringBootCrudWebMVCAppApplication.main(SpringBootCrudWebMVCAppApplication.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.example.demo.security.config.SpringSecurityConfig] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@e6e0f88]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:659)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:556)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:541)
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:728)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:669)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:637)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1489)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1007)
+	at org.springframework.boot.autoconfigure.condition.BeanTypeRegistry.addBeanTypeForNonAliasDefinition(BeanTypeRegistry.java:168)
+	at org.springframework.boot.autoconfigure.condition.BeanTypeRegistry.addBeanType(BeanTypeRegistry.java:157)
+	at org.springframework.boot.autoconfigure.condition.BeanTypeRegistry.updateTypesIfNecessary(BeanTypeRegistry.java:207)
+	at org.springframework.boot.autoconfigure.condition.BeanTypeRegistry.getNamesForType(BeanTypeRegistry.java:114)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.collectBeanNamesForType(OnBeanCondition.java:266)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:255)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchingBeans(OnBeanCondition.java:197)
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:116)
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47)
+	... 22 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: AuthenticationSuccessHandler
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethods(Class.java:1975)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:641)
+	... 39 common frames omitted
+Caused by: java.lang.ClassNotFoundException: AuthenticationSuccessHandler
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:148)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 43 common frames omitted
+2018-Mar-16 15:45:28.224 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Starting SpringBootCrudWebMVCAppApplication on E5570-153 with PID 8388 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 15:45:28.226 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 15:45:28.996 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:45:29.000 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 15:45:29.056 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:45:29.057 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 15:45:29.581 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Started SpringBootCrudWebMVCAppApplication in 1.461 seconds (JVM running for 5540.63)
+2018-Mar-16 15:45:29.583 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 15:45:29.588 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 15:45:37.743 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Starting SpringBootCrudWebMVCAppApplication on E5570-153 with PID 8388 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 15:45:37.743 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 15:45:38.483 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:45:38.487 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 15:45:38.542 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:45:38.543 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 15:45:39.082 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Started SpringBootCrudWebMVCAppApplication in 1.443 seconds (JVM running for 5550.131)
+2018-Mar-16 15:45:39.084 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 15:45:39.089 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 15:46:45.734 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Starting SpringBootCrudWebMVCAppApplication on E5570-153 with PID 8388 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 15:46:45.735 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 15:46:46.504 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:46:46.508 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 15:46:46.563 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:46:46.565 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 15:46:47.094 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Started SpringBootCrudWebMVCAppApplication in 1.478 seconds (JVM running for 5618.14)
+2018-Mar-16 15:46:47.096 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 15:46:47.100 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 15:47:43.898 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Starting SpringBootCrudWebMVCAppApplication on E5570-153 with PID 8388 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 15:47:43.898 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 15:47:44.646 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:47:44.650 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 15:47:44.706 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:47:44.708 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 15:47:45.284 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Started SpringBootCrudWebMVCAppApplication in 1.503 seconds (JVM running for 5676.329)
+2018-Mar-16 15:47:45.286 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 15:47:45.290 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 15:48:47.839 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Starting SpringBootCrudWebMVCAppApplication on E5570-153 with PID 8388 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 15:48:47.839 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 15:48:48.660 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:48:48.664 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 15:48:48.724 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:48:48.725 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 15:48:49.324 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Started SpringBootCrudWebMVCAppApplication in 1.595 seconds (JVM running for 5740.366)
+2018-Mar-16 15:48:49.326 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 15:48:49.330 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 15:49:27.229 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Starting SpringBootCrudWebMVCAppApplication on E5570-153 with PID 8388 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 15:49:27.230 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 15:49:27.969 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:49:27.973 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 15:49:28.037 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:49:28.038 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 15:49:28.581 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Started SpringBootCrudWebMVCAppApplication in 1.463 seconds (JVM running for 5779.621)
+2018-Mar-16 15:49:28.584 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 15:49:28.588 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 15:50:04.437 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Starting SpringBootCrudWebMVCAppApplication on E5570-153 with PID 8388 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 15:50:04.437 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 15:50:05.155 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:50:05.159 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 15:50:05.229 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:50:05.230 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 15:50:05.768 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Started SpringBootCrudWebMVCAppApplication in 1.459 seconds (JVM running for 5816.807)
+2018-Mar-16 15:50:05.771 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 15:50:05.775 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 15:50:19.671 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Starting SpringBootCrudWebMVCAppApplication on E5570-153 with PID 8388 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 15:50:19.671 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 15:50:20.360 INFO  [localhost-startStop-1] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:50:20.365 INFO  [localhost-startStop-1] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 15:50:20.469 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:50:20.471 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 15:50:21.007 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Started SpringBootCrudWebMVCAppApplication in 1.451 seconds (JVM running for 5832.046)
+2018-Mar-16 15:50:21.010 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 15:50:21.014 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 15:50:48.200 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Starting SpringBootCrudWebMVCAppApplication on E5570-153 with PID 8388 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 15:50:48.200 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 15:50:48.987 INFO  [localhost-startStop-1] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:50:48.992 INFO  [localhost-startStop-1] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 15:50:49.084 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 15:50:49.086 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 15:50:49.601 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Started SpringBootCrudWebMVCAppApplication in 1.522 seconds (JVM running for 5860.639)
+2018-Mar-16 15:50:49.603 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 15:50:49.608 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 16:11:42.376 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Starting SpringBootCrudWebMVCAppApplication on E5570-153 with PID 8388 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 16:11:42.376 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 16:11:43.158 INFO  [localhost-startStop-1] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 16:11:43.163 INFO  [localhost-startStop-1] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 16:11:43.302 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 16:11:43.305 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 16:11:43.907 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Started SpringBootCrudWebMVCAppApplication in 1.654 seconds (JVM running for 7114.9)
+2018-Mar-16 16:11:43.910 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 16:11:43.915 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 16:11:50.619 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Starting SpringBootCrudWebMVCAppApplication on E5570-153 with PID 8388 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 16:11:50.619 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 16:11:51.527 INFO  [localhost-startStop-1] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 16:11:51.531 INFO  [localhost-startStop-1] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 16:11:51.631 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 16:11:51.634 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 16:11:52.198 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Started SpringBootCrudWebMVCAppApplication in 1.697 seconds (JVM running for 7123.191)
+2018-Mar-16 16:11:52.201 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 16:11:52.206 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 16:15:38.867 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Starting SpringBootCrudWebMVCAppApplication on E5570-153 with PID 8388 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 16:15:38.867 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 16:15:39.650 INFO  [localhost-startStop-1] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 16:15:39.655 INFO  [localhost-startStop-1] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 16:15:39.771 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 16:15:39.775 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 16:15:40.430 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Started SpringBootCrudWebMVCAppApplication in 1.69 seconds (JVM running for 7351.414)
+2018-Mar-16 16:15:40.432 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 16:15:40.437 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 16:18:08.718 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Starting SpringBootCrudWebMVCAppApplication on E5570-153 with PID 8388 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 16:18:08.718 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 16:18:09.564 INFO  [localhost-startStop-1] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 16:18:09.571 INFO  [localhost-startStop-1] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 16:18:09.706 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 16:18:09.708 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 16:18:10.329 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Started SpringBootCrudWebMVCAppApplication in 1.75 seconds (JVM running for 7501.308)
+2018-Mar-16 16:18:10.331 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 16:18:10.336 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 16:18:23.040 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Starting SpringBootCrudWebMVCAppApplication on E5570-153 with PID 8388 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 16:18:23.044 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 16:18:23.815 INFO  [localhost-startStop-1] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 16:18:23.821 INFO  [localhost-startStop-1] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 16:18:23.950 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 16:18:23.952 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 16:18:24.561 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Started SpringBootCrudWebMVCAppApplication in 1.65 seconds (JVM running for 7515.539)
+2018-Mar-16 16:18:24.563 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 16:18:24.569 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 16:18:49.577 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Starting SpringBootCrudWebMVCAppApplication on E5570-153 with PID 8388 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 16:18:49.577 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 16:18:50.415 INFO  [localhost-startStop-1] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 16:18:50.423 INFO  [localhost-startStop-1] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 16:18:50.544 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 16:18:50.547 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 16:18:51.156 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Started SpringBootCrudWebMVCAppApplication in 1.686 seconds (JVM running for 7542.134)
+2018-Mar-16 16:18:51.159 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 16:18:51.164 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 16:18:57.171 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Starting SpringBootCrudWebMVCAppApplication on E5570-153 with PID 8388 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 16:18:57.171 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 16:18:57.936 INFO  [localhost-startStop-1] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 16:18:57.941 INFO  [localhost-startStop-1] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 16:18:58.058 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 16:18:58.061 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 16:18:58.666 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Started SpringBootCrudWebMVCAppApplication in 1.633 seconds (JVM running for 7549.643)
+2018-Mar-16 16:18:58.668 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 16:18:58.673 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 16:19:59.892 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Starting SpringBootCrudWebMVCAppApplication on E5570-153 with PID 8388 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 16:19:59.892 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 16:20:00.680 INFO  [localhost-startStop-1] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 16:20:00.735 INFO  [localhost-startStop-1] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 16:20:00.875 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 16:20:00.878 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 16:20:01.468 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Started SpringBootCrudWebMVCAppApplication in 1.694 seconds (JVM running for 7612.443)
+2018-Mar-16 16:20:01.470 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 16:20:01.474 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 16:20:31.396 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Starting SpringBootCrudWebMVCAppApplication on E5570-153 with PID 2928 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 16:20:31.397 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 16:20:44.988 INFO  [localhost-startStop-1] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 16:20:45.050 INFO  [localhost-startStop-1] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 16:20:45.818 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 16:20:45.868 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 16:20:48.022 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Started SpringBootCrudWebMVCAppApplication in 17.794 seconds (JVM running for 19.238)
+2018-Mar-16 16:20:48.026 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 16:20:48.034 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 16:23:07.318 INFO  [http-nio-8080-exec-5] c.e.d.s.CustomerUserDetailsService - SpringBootRestSecurityLog:user Name:john
+2018-Mar-16 16:23:08.108 INFO  [http-nio-8080-exec-5] c.e.d.s.CustomerUserDetailsService - SpringBootRestSecurityLog:1
+2018-Mar-16 16:24:16.046 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Starting SpringBootCrudWebMVCAppApplication on E5570-153 with PID 2928 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 16:24:16.046 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 16:24:16.951 INFO  [localhost-startStop-1] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 16:24:16.958 INFO  [localhost-startStop-1] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 16:24:16.993 ERROR [localhost-startStop-1] o.a.c.s.StandardManager - Exception loading sessions from persistent storage
+java.lang.ClassCastException: java.io.ObjectStreamClass cannot be cast to java.lang.String
+	at java.io.ObjectInputStream.readTypeString(ObjectInputStream.java:1645)
+	at java.io.ObjectStreamClass.readNonProxy(ObjectStreamClass.java:791)
+	at java.io.ObjectInputStream.readClassDescriptor(ObjectInputStream.java:888)
+	at java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:1852)
+	at java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1746)
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2037)
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1568)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:428)
+	at org.apache.catalina.session.StandardSession.doReadObject(StandardSession.java:1611)
+	at org.apache.catalina.session.StandardSession.readObjectData(StandardSession.java:1077)
+	at org.apache.catalina.session.StandardManager.doLoad(StandardManager.java:218)
+	at org.apache.catalina.session.StandardManager.load(StandardManager.java:162)
+	at org.apache.catalina.session.StandardManager.startInternal(StandardManager.java:356)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5232)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1419)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1409)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-Mar-16 16:24:17.127 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 16:24:17.129 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 16:24:17.823 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Started SpringBootCrudWebMVCAppApplication in 1.912 seconds (JVM running for 229.031)
+2018-Mar-16 16:24:17.825 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 16:24:17.831 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 16:24:25.814 INFO  [http-nio-8080-exec-5] c.e.d.s.CustomerUserDetailsService - SpringBootRestSecurityLog:user Name:john
+2018-Mar-16 16:24:26.027 INFO  [http-nio-8080-exec-5] c.e.d.s.CustomerUserDetailsService - SpringBootRestSecurityLog:1
+2018-Mar-16 16:24:38.691 INFO  [http-nio-8080-exec-2] c.e.d.s.CustomerUserDetailsService - SpringBootRestSecurityLog:user Name:peter
+2018-Mar-16 16:24:38.812 INFO  [http-nio-8080-exec-2] c.e.d.s.CustomerUserDetailsService - SpringBootRestSecurityLog:1
+2018-Mar-16 16:25:45.356 INFO  [http-nio-8080-exec-4] c.e.d.s.CustomerUserDetailsService - SpringBootRestSecurityLog:user Name:peter
+2018-Mar-16 16:25:45.474 INFO  [http-nio-8080-exec-4] c.e.d.s.CustomerUserDetailsService - SpringBootRestSecurityLog:1
+2018-Mar-16 16:26:27.584 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Starting SpringBootCrudWebMVCAppApplication on E5570-153 with PID 2928 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 16:26:27.584 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 16:26:28.499 INFO  [localhost-startStop-1] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 16:26:28.506 INFO  [localhost-startStop-1] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 16:26:28.629 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 16:26:28.633 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 16:26:29.261 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Started SpringBootCrudWebMVCAppApplication in 1.832 seconds (JVM running for 360.465)
+2018-Mar-16 16:26:29.263 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 16:26:29.268 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 16:26:37.322 INFO  [http-nio-8080-exec-4] c.e.d.s.CustomerUserDetailsService - SpringBootRestSecurityLog:user Name:peter
+2018-Mar-16 16:26:37.459 INFO  [http-nio-8080-exec-4] c.e.d.s.CustomerUserDetailsService - SpringBootRestSecurityLog:1

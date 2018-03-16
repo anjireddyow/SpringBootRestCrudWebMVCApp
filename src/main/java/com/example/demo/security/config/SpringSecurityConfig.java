@@ -12,11 +12,14 @@ import org.springframework.security.config.annotation.authentication.builders.Au
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
-import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.security.web.authentication.AuthenticationSuccessHandler;
+import org.springframework.security.web.session.HttpSessionEventPublisher;
 
 import com.example.demo.common.CommonConstants;
+import com.example.demo.controller.MySimpleUrlAuthenticationSuccessHandler;
 import com.example.demo.exception.handler.CustomAccessDeniedHandler;
 import com.example.demo.service.CustomerUserDetailsService;
 
@@ -41,6 +44,31 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
 
 	@Autowired
 	private CustomAccessDeniedHandler customAccessDeniedHandler;
+
+	/**
+	 * This will return user home page or admin home page after success
+	 * authentication and based on the roles of either user or admin
+	 * 
+	 * @return
+	 */
+	private AuthenticationSuccessHandler successHandler() {
+		return new MySimpleUrlAuthenticationSuccessHandler();
+	}
+
+	/**
+	 * Concurrent Session Control
+	 * 
+	 * When a user that is already authenticated tries to authenticate again, the
+	 * application can deal with that event in one of a few ways. It can either
+	 * invalidate the active session of the user and authenticate the user again
+	 * with a new session, or allow both sessions to exist concurrently.
+	 * 
+	 * @return
+	 */
+	@Bean
+	public HttpSessionEventPublisher httpSessionEventPublisher() {
+		return new HttpSessionEventPublisher();
+	}
 
 	/**
 	 * This method will indicate the BCrypt Password Encoder. This password encoder
@@ -109,24 +137,45 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
 
 	/**
 	 * 
+	 * ----- Spring security session ----
+	 * 
+	 * always – a session will always be created if one doesn’t already exist
+	 * ifRequired – a session will be created only if required (default) never – the
+	 * framework will never create a session itself but it will use one if it
+	 * already exists stateless – no session will be created or used by Spring
+	 * Security
+	 * 
 	 */
 	public void configure(HttpSecurity httpSecurity) throws Exception {
 		logger.info(CommonConstants.APP_NAME_FOR_LOG
 				+ "Authorizing all the application urls with spring security using roles/authorities");
 
+		httpSecurity.sessionManagement().sessionCreationPolicy(SessionCreationPolicy.IF_REQUIRED);
+
+		httpSecurity.sessionManagement().maximumSessions(2);// Maximum number of concurrent sessions
+
+		httpSecurity.sessionManagement().invalidSessionUrl("/invalidSession.html");
+
+		httpSecurity.sessionManagement().sessionFixation().migrateSession();
+
 		httpSecurity.authorizeRequests().anyRequest().hasAnyRole("USER", "ADMIN").and().authorizeRequests()
-				.antMatchers("/login**").permitAll()
-				.and().formLogin().loginPage("/login") // Specifies the login page URL
+				.antMatchers("/login**").permitAll().and().formLogin().loginPage("/login") // Specifies the login page
+																							// URL
 				.loginProcessingUrl("/signin") // Specifies the URL,which is used in action attribute on the <from> tag
-				.usernameParameter("username") // Username parameter, used in name attribute of the <input> tag in login jsp file. Default is 'username'.
-				.passwordParameter("passwd") // Password parameter, used in name attribute of the <input> tag login jsp file. Default is 'password'.
-				.successHandler((req, res, auth) -> { // Success handler invoked after successful authentication
-					for (GrantedAuthority authority : auth.getAuthorities()) {
-						System.out.println(authority.getAuthority());
-					}
-					System.out.println(auth.getName());
-					res.sendRedirect(req.getContextPath()+"/home"); // Redirect user to index/home page
-				})
+				.usernameParameter("username") // Username parameter, used in name attribute of the <input> tag in login
+												// jsp file. Default is 'username'.
+				.passwordParameter("passwd") // Password parameter, used in name attribute of the <input> tag login jsp
+												// file. Default is 'password'.
+				// .successHandler((req, res, auth) -> { // Success handler invoked after
+				// successful authentication
+				// for (GrantedAuthority authority : auth.getAuthorities()) {
+				// System.out.println(authority.getAuthority());
+				// }
+				// System.out.println(auth.getName());
+				// res.sendRedirect(req.getContextPath() + "/home"); // Redirect user to
+				// index/home page
+				// })
+				.successHandler(successHandler())
 				// .defaultSuccessUrl("/") // URL, where user will go after authenticating
 				// successfully.
 				// Skipped if successHandler() is used.
@@ -137,17 +186,20 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
 					} else {
 						errMsg = "Unknown error - " + exp.getMessage();
 					}
-					req.getSession().setAttribute("message", errMsg);
-					res.sendRedirect(req.getContextPath()+"/login"); // Redirect user to login page with error message.
+					req.getSession().invalidate();
+					req.setAttribute("message", errMsg);
+					res.sendRedirect(req.getContextPath() + "/login"); // Redirect user to login page with error
+																		// message.
 				})
 				// .failureUrl("/login?error") // URL, where user will go after authentication
 				// failure.
 				// Skipped if failureHandler() is used.
 				.permitAll() // Allow access to any URL associate to formLogin()
-				.and().logout().logoutUrl("/signout") // Specifies the logout URL, default URL is '/logout'
+				.and().logout().deleteCookies("JSESSIONID").logoutUrl("/signout") // Specifies the logout URL, default
+																					// URL is '/logout'
 				.logoutSuccessHandler((req, res, auth) -> { // Logout handler called after successful logout
 					req.getSession().setAttribute("message", "You are logged out successfully.");
-					res.sendRedirect(req.getContextPath()+"/login"); // Redirect user to login page with message.
+					res.sendRedirect(req.getContextPath() + "/login"); // Redirect user to login page with message.
 				})
 				// .logoutSuccessUrl("/login") // URL, where user will be redirect after
 				// successful
@@ -240,4 +292,5 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
 	// //implements PasswordEncoder and overide encode method with the MD5 protocol
 	// return new MD5PasswordEncoder();
 	// }
+
 }

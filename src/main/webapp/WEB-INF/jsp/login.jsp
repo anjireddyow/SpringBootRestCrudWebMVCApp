@@ -29,8 +29,8 @@
     </table>
   </form>
   <br/>
-  <c:if test="${not empty sessionScope.message}">
-    <span style="color:green"><c:out value="${sessionScope.message}"/></span>
+  <c:if test="${not empty message}">
+    <span style="color:green"><c:out value="${message}"/></span>
     <c:remove var="message" scope="session" />
   </c:if>
 </body>

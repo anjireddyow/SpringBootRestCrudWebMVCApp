@@ -77,51 +77,6 @@ public class SpringBootCrudMVCController {
 		return welcomeMessage + customConfigurationProperties.getMessage() + customConfigurationProperties.getAge();
 	}
 
-	/**
-	 * Model: It is an Interface. It defines a holder for model attributes and
-	 * primarily designed for adding attributes to the model.
-	 * 
-	 * @return default spring boot login page
-	 */
-	@RequestMapping(value = "/welcome", method = RequestMethod.GET)
-	public String welcome(Model model) {
-		model.addAttribute("message", "Welcome to Spring Boot Rest CRUD MVC App");
-		return "welcome";
-	}
-
-	/**
-	 * ModelAndView is just a container for both a ModelMap and a view object. It
-	 * allows a controller to return both as a single value.
-	 * 
-	 * @return home page
-	 */
-	@RequestMapping(value = "/home", method = RequestMethod.GET)
-	public ModelAndView homePage(HttpServletRequest httpServletRequest) {
-		String appContextPath = httpServletRequest.getContextPath();
-		ModelAndView modelAndView = new ModelAndView();
-		modelAndView.setViewName("home");
-		// Get authenticated user name from SecurityContext
-		SecurityContext context = SecurityContextHolder.getContext();
-
-		modelAndView.addObject("message", "You are logged in as " + context.getAuthentication().getName());
-		return modelAndView;
-	}
-
-	/**
-	 * ModelMap: Implementation of Map for use when building model data for use with
-	 * UI tools.Supports chained calls and generation of model attribute names.
-	 * 
-	 * @param model
-	 * @return
-	 */
-	@RequestMapping(value = "/login", method = RequestMethod.GET)
-	public String login(ModelMap modelMap) {
-		String helloWorldMessage = "Hello world!";
-		String welcomeMessage = "Welcome!";
-		modelMap.addAttribute("helloMessage", helloWorldMessage);
-		modelMap.addAttribute("welcomeMessage", welcomeMessage);
-		return "login";
-	}
 
 	/**
 	 * To retrieve

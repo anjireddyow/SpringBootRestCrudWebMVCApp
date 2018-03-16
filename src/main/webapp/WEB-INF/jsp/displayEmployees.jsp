@@ -16,9 +16,8 @@
 		<c:url value="${pageContext.request.contextPath}/css/main.css" var="jstlCss" />
 	<link href="${jstlCss}" rel="stylesheet" />
 </head>
-<body>Welcome to User Home Message: ${message}
+<body>Welcome to Display user Name: ${message}
 </br>
-<a href='<spring:url value="/displayEmployees"/>'>Display employees</a>
 <a href='<spring:url value="/signout"/>'>Logout</a>
 </body>
 </html>
