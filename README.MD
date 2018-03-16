@@ -26,4 +26,16 @@ Required Tools :
 5. MYSQL Database (6+): database name : springboot (see admin.properties file for more information)
 6. Java 1.8
 7. Install JSON Viewer in your browser
-8. 
+
+
+Spring Boot Web MVC app notes.
+
+1. Spring controller should be annotated with @Controller (Do not use @RestController
+2. POM.XML changes
+   1. Change packaging to war file <packaging>war</packaging>
+   2. Add spring boot starter tomcat as provided means you are externally providing the server
+   3. Add jstl and tomcat-embed-jasper dependencies for compiling the jsp
+
+3. Perform all the changes to viewresolvers in the WebMvcConfig.java file which extends WebMvcConfigurer
+	
+}

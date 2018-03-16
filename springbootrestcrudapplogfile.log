@@ -46,3 +46,832 @@ Caused by: java.lang.ClassNotFoundException: Health
 	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:148)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
 	... 30 common frames omitted
+2018-Mar-16 12:29:41.279 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - Starting SpringBootRestCrudWebMVCAppApplication on E5570-153 with PID 6140 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 12:29:41.281 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,dev
+2018-Mar-16 12:29:43.950 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 12:29:43.980 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 12:29:44.360 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 12:29:44.390 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 12:29:45.852 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - Started SpringBootRestCrudWebMVCAppApplication in 5.317 seconds (JVM running for 6.741)
+2018-Mar-16 12:29:45.855 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 12:29:45.857 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 12:32:20.962 INFO  [http-nio-8080-exec-6] c.e.d.s.CustomerUserDetailsService - SpringBootRestSecurityLog:user Name:john
+2018-Mar-16 12:32:21.896 INFO  [http-nio-8080-exec-6] c.e.d.s.CustomerUserDetailsService - SpringBootRestSecurityLog:1
+2018-Mar-16 12:32:29.309 INFO  [http-nio-8080-exec-8] c.e.d.s.CustomerUserDetailsService - SpringBootRestSecurityLog:user Name:john
+2018-Mar-16 12:32:29.426 INFO  [http-nio-8080-exec-8] c.e.d.s.CustomerUserDetailsService - SpringBootRestSecurityLog:1
+2018-Mar-16 12:33:28.095 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - Starting SpringBootRestCrudWebMVCAppApplication on E5570-153 with PID 6140 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 12:33:28.095 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,dev
+2018-Mar-16 12:33:28.985 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 12:33:28.990 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 12:33:29.055 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 12:33:29.056 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 12:33:29.820 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - Started SpringBootRestCrudWebMVCAppApplication in 1.833 seconds (JVM running for 230.702)
+2018-Mar-16 12:33:29.822 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 12:33:29.824 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 12:33:42.341 INFO  [http-nio-8080-exec-3] c.e.d.s.CustomerUserDetailsService - SpringBootRestSecurityLog:user Name:john
+2018-Mar-16 12:33:42.470 INFO  [http-nio-8080-exec-3] c.e.d.s.CustomerUserDetailsService - SpringBootRestSecurityLog:1
+2018-Mar-16 12:36:06.415 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - Starting SpringBootRestCrudWebMVCAppApplication on E5570-153 with PID 6140 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 12:36:06.416 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,dev
+2018-Mar-16 12:36:07.293 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 12:36:07.299 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 12:36:07.386 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 12:36:07.388 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 12:36:08.070 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - Started SpringBootRestCrudWebMVCAppApplication in 1.757 seconds (JVM running for 388.946)
+2018-Mar-16 12:36:08.072 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 12:36:08.074 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 12:36:23.965 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - Starting SpringBootRestCrudWebMVCAppApplication on E5570-153 with PID 6140 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 12:36:23.965 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,dev
+2018-Mar-16 12:36:24.867 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 12:36:24.872 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 12:36:24.935 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 12:36:24.937 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 12:36:25.544 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - Started SpringBootRestCrudWebMVCAppApplication in 1.685 seconds (JVM running for 406.42)
+2018-Mar-16 12:36:25.547 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 12:36:25.548 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 12:37:22.893 INFO  [http-nio-8080-exec-4] c.e.d.s.CustomerUserDetailsService - SpringBootRestSecurityLog:user Name:peter
+2018-Mar-16 12:37:23.028 INFO  [http-nio-8080-exec-4] c.e.d.s.CustomerUserDetailsService - SpringBootRestSecurityLog:1
+2018-Mar-16 12:38:17.102 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - Starting SpringBootRestCrudWebMVCAppApplication on E5570-153 with PID 6140 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 12:38:17.102 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,dev
+2018-Mar-16 12:38:18.040 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 12:38:18.046 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 12:38:18.125 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 12:38:18.128 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 12:38:18.742 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - Started SpringBootRestCrudWebMVCAppApplication in 1.776 seconds (JVM running for 519.614)
+2018-Mar-16 12:38:18.744 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 12:38:18.745 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 12:38:35.331 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - Starting SpringBootRestCrudWebMVCAppApplication on E5570-153 with PID 6140 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 12:38:35.331 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 12:38:36.182 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 12:38:36.190 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 12:38:36.286 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 12:38:36.288 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 12:38:36.909 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - Started SpringBootRestCrudWebMVCAppApplication in 1.693 seconds (JVM running for 537.78)
+2018-Mar-16 12:38:36.911 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 12:38:36.913 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 12:39:15.202 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - Starting SpringBootRestCrudWebMVCAppApplication on E5570-153 with PID 6140 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 12:39:15.203 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 12:39:16.567 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 12:39:16.572 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 12:39:16.635 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 12:39:16.637 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 12:39:17.205 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - Started SpringBootRestCrudWebMVCAppApplication in 2.209 seconds (JVM running for 578.074)
+2018-Mar-16 12:39:17.207 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 12:39:17.208 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 12:40:25.427 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - Starting SpringBootRestCrudWebMVCAppApplication on E5570-153 with PID 6140 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 12:40:25.427 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 12:40:26.585 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 12:40:26.589 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 12:40:26.658 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 12:40:26.660 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 12:40:27.254 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - Started SpringBootRestCrudWebMVCAppApplication in 1.968 seconds (JVM running for 648.121)
+2018-Mar-16 12:40:27.256 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 12:40:27.258 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 12:40:39.954 INFO  [http-nio-8080-exec-4] c.e.d.s.CustomerUserDetailsService - SpringBootRestSecurityLog:user Name:john
+2018-Mar-16 12:40:40.086 INFO  [http-nio-8080-exec-4] c.e.d.s.CustomerUserDetailsService - SpringBootRestSecurityLog:1
+2018-Mar-16 12:43:25.440 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - Starting SpringBootRestCrudWebMVCAppApplication on E5570-153 with PID 3032 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 12:43:25.441 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 12:43:27.987 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 12:43:28.004 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 12:43:28.390 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 12:43:28.440 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 12:43:29.738 ERROR [restartedMain] o.a.c.c.StandardService - Failed to start connector [Connector[HTTP/1.1-8090]]
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-8090]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:255)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:197)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:300)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.actuate.autoconfigure.web.server.ManagementContextAutoConfiguration$DifferentManagementContextConfiguration.afterSingletonsInstantiated(ManagementContextAutoConfiguration.java:141)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:777)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:388)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1234)
+	at com.example.demo.SpringBootRestCrudWebMVCAppApplication.main(SpringBootRestCrudWebMVCAppApplication.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1021)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 23 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1150)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:591)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1018)
+	... 24 common frames omitted
+2018-Mar-16 12:43:29.776 ERROR [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8090 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8090, or configure this application to listen on another port.
+
+2018-Mar-16 12:43:44.969 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - Starting SpringBootRestCrudWebMVCAppApplication on E5570-153 with PID 3004 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 12:43:44.970 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 12:43:47.436 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 12:43:47.458 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 12:43:47.832 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 12:43:47.860 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 12:43:49.134 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - Started SpringBootRestCrudWebMVCAppApplication in 4.799 seconds (JVM running for 5.962)
+2018-Mar-16 12:43:49.138 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 12:43:49.140 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 12:44:19.630 INFO  [http-nio-8080-exec-6] c.e.d.s.CustomerUserDetailsService - SpringBootRestSecurityLog:user Name:john
+2018-Mar-16 12:44:19.969 INFO  [http-nio-8080-exec-6] c.e.d.s.CustomerUserDetailsService - SpringBootRestSecurityLog:1
+2018-Mar-16 12:44:20.132 ERROR [http-nio-8080-exec-7] o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Could not resolve view with name 'jsp/home' in servlet with name 'dispatcherServlet'] with root cause
+javax.servlet.ServletException: Could not resolve view with name 'jsp/home' in servlet with name 'dispatcherServlet'
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1305)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1069)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1008)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:870)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:855)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.devtools.remote.server.DispatcherFilter.doFilter(DispatcherFilter.java:73)
+	at org.springframework.boot.devtools.remote.server.DispatcherFilter.doFilter(DispatcherFilter.java:61)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:158)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:126)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:111)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:84)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:158)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter.doFilter(DefaultLoginPageGeneratingFilter.java:204)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2018-Mar-16 12:44:50.107 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - Starting SpringBootRestCrudWebMVCAppApplication on E5570-153 with PID 3004 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 12:44:50.107 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 12:44:51.015 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 12:44:51.019 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 12:44:51.083 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 12:44:51.084 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 12:44:51.752 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - Started SpringBootRestCrudWebMVCAppApplication in 1.775 seconds (JVM running for 68.579)
+2018-Mar-16 12:44:51.755 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 12:44:51.757 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 12:45:13.793 INFO  [http-nio-8080-exec-2] c.e.d.s.CustomerUserDetailsService - SpringBootRestSecurityLog:user Name:john
+2018-Mar-16 12:45:13.924 INFO  [http-nio-8080-exec-2] c.e.d.s.CustomerUserDetailsService - SpringBootRestSecurityLog:1
+2018-Mar-16 12:45:17.991 INFO  [http-nio-8080-exec-5] c.e.d.s.CustomerUserDetailsService - SpringBootRestSecurityLog:user Name:john
+2018-Mar-16 12:45:18.110 INFO  [http-nio-8080-exec-5] c.e.d.s.CustomerUserDetailsService - SpringBootRestSecurityLog:1
+2018-Mar-16 12:45:18.232 ERROR [http-nio-8080-exec-6] o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Could not resolve view with name 'home' in servlet with name 'dispatcherServlet'] with root cause
+javax.servlet.ServletException: Could not resolve view with name 'home' in servlet with name 'dispatcherServlet'
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1305)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1069)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1008)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:870)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:855)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.devtools.remote.server.DispatcherFilter.doFilter(DispatcherFilter.java:73)
+	at org.springframework.boot.devtools.remote.server.DispatcherFilter.doFilter(DispatcherFilter.java:61)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:158)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:126)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:111)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:84)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:158)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter.doFilter(DefaultLoginPageGeneratingFilter.java:204)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2018-Mar-16 12:47:56.936 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - Starting SpringBootRestCrudWebMVCAppApplication on E5570-153 with PID 3004 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 12:47:56.937 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 12:47:57.712 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 12:47:57.717 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 12:47:57.780 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 12:47:57.782 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 12:47:58.444 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - Started SpringBootRestCrudWebMVCAppApplication in 1.624 seconds (JVM running for 255.264)
+2018-Mar-16 12:47:58.446 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 12:47:58.448 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 12:48:10.165 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - Starting SpringBootRestCrudWebMVCAppApplication on E5570-153 with PID 3004 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 12:48:10.165 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 12:48:10.983 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 12:48:10.988 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 12:48:11.050 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 12:48:11.052 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 12:48:11.697 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - Started SpringBootRestCrudWebMVCAppApplication in 1.652 seconds (JVM running for 268.516)
+2018-Mar-16 12:48:11.699 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 12:48:11.700 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 12:48:16.056 INFO  [http-nio-8080-exec-3] c.e.d.s.CustomerUserDetailsService - SpringBootRestSecurityLog:user Name:john
+2018-Mar-16 12:48:16.190 INFO  [http-nio-8080-exec-3] c.e.d.s.CustomerUserDetailsService - SpringBootRestSecurityLog:1
+2018-Mar-16 12:48:16.316 ERROR [http-nio-8080-exec-4] o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Could not resolve view with name 'home' in servlet with name 'dispatcherServlet'] with root cause
+javax.servlet.ServletException: Could not resolve view with name 'home' in servlet with name 'dispatcherServlet'
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1305)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1069)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1008)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:870)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:855)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.devtools.remote.server.DispatcherFilter.doFilter(DispatcherFilter.java:73)
+	at org.springframework.boot.devtools.remote.server.DispatcherFilter.doFilter(DispatcherFilter.java:61)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:158)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:126)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:111)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:84)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:158)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter.doFilter(DefaultLoginPageGeneratingFilter.java:204)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2018-Mar-16 12:49:39.917 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - Starting SpringBootRestCrudWebMVCAppApplication on E5570-153 with PID 5576 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 12:49:39.919 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 12:49:45.166 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 12:49:45.238 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 12:49:45.703 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 12:49:45.766 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 12:49:47.906 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - Started SpringBootRestCrudWebMVCAppApplication in 9.136 seconds (JVM running for 9.938)
+2018-Mar-16 12:49:47.911 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 12:49:47.913 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 12:50:14.594 INFO  [http-nio-8080-exec-6] c.e.d.s.CustomerUserDetailsService - SpringBootRestSecurityLog:user Name:john
+2018-Mar-16 12:50:15.100 INFO  [http-nio-8080-exec-6] c.e.d.s.CustomerUserDetailsService - SpringBootRestSecurityLog:1
+2018-Mar-16 12:50:15.275 ERROR [http-nio-8080-exec-8] o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Could not resolve view with name 'home' in servlet with name 'dispatcherServlet'] with root cause
+javax.servlet.ServletException: Could not resolve view with name 'home' in servlet with name 'dispatcherServlet'
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1305)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1069)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1008)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:870)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:855)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.devtools.remote.server.DispatcherFilter.doFilter(DispatcherFilter.java:73)
+	at org.springframework.boot.devtools.remote.server.DispatcherFilter.doFilter(DispatcherFilter.java:61)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:158)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:126)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:111)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:84)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:158)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter.doFilter(DefaultLoginPageGeneratingFilter.java:204)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2018-Mar-16 12:51:30.625 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - Starting SpringBootRestCrudWebMVCAppApplication on E5570-153 with PID 5576 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 12:51:30.626 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 12:51:31.985 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 12:51:31.992 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 12:51:32.080 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 12:51:32.083 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 12:51:32.893 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - Started SpringBootRestCrudWebMVCAppApplication in 2.457 seconds (JVM running for 114.921)
+2018-Mar-16 12:51:32.895 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 12:51:32.896 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 12:51:32.898 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 12:51:58.617 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - Starting SpringBootRestCrudWebMVCAppApplication on E5570-153 with PID 5576 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 12:51:58.617 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 12:52:00.011 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 12:52:00.018 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 12:52:00.097 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 12:52:00.099 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 12:52:00.731 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - Started SpringBootRestCrudWebMVCAppApplication in 2.285 seconds (JVM running for 142.759)
+2018-Mar-16 12:52:00.733 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 12:52:00.733 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 12:52:00.735 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 12:52:28.549 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - Starting SpringBootRestCrudWebMVCAppApplication on E5570-153 with PID 5576 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 12:52:28.549 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 12:52:29.669 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 12:52:29.676 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 12:52:29.758 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 12:52:29.760 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 12:52:30.456 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - Started SpringBootRestCrudWebMVCAppApplication in 2.06 seconds (JVM running for 172.483)
+2018-Mar-16 12:52:30.459 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 12:52:30.460 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 12:52:30.462 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 12:52:36.096 INFO  [http-nio-8080-exec-5] c.e.d.s.CustomerUserDetailsService - SpringBootRestSecurityLog:user Name:john
+2018-Mar-16 12:52:36.247 INFO  [http-nio-8080-exec-5] c.e.d.s.CustomerUserDetailsService - SpringBootRestSecurityLog:1
+2018-Mar-16 12:52:36.365 ERROR [http-nio-8080-exec-7] o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Could not resolve view with name 'home' in servlet with name 'dispatcherServlet'] with root cause
+javax.servlet.ServletException: Could not resolve view with name 'home' in servlet with name 'dispatcherServlet'
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1305)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1069)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1008)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:870)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:855)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.devtools.remote.server.DispatcherFilter.doFilter(DispatcherFilter.java:73)
+	at org.springframework.boot.devtools.remote.server.DispatcherFilter.doFilter(DispatcherFilter.java:61)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:158)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:126)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:111)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:84)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:158)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter.doFilter(DefaultLoginPageGeneratingFilter.java:204)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2018-Mar-16 12:52:48.146 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - Starting SpringBootRestCrudWebMVCAppApplication on E5570-153 with PID 5576 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 12:52:48.146 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 12:52:49.123 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 12:52:49.129 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 12:52:49.206 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 12:52:49.207 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 12:52:49.788 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - Started SpringBootRestCrudWebMVCAppApplication in 1.794 seconds (JVM running for 191.814)
+2018-Mar-16 12:52:49.791 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 12:52:49.791 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 12:52:49.793 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 12:55:57.001 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - Starting SpringBootRestCrudWebMVCAppApplication on E5570-153 with PID 5576 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 12:55:57.001 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 12:55:57.982 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 12:55:57.989 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 12:55:58.064 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 12:55:58.065 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 12:55:58.750 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - Started SpringBootRestCrudWebMVCAppApplication in 1.884 seconds (JVM running for 380.769)
+2018-Mar-16 12:55:58.752 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 12:55:58.753 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 12:55:58.756 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 12:56:37.955 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - Starting SpringBootRestCrudWebMVCAppApplication on E5570-153 with PID 5576 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 12:56:37.955 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 12:56:38.532 ERROR [restartedMain] o.s.b.SpringApplication - Application run failed
+java.lang.IllegalStateException: Cannot load configuration class: com.example.demo.config.WebMvcConfig
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.enhanceConfigurationClasses(ConfigurationClassPostProcessor.java:416)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanFactory(ConfigurationClassPostProcessor.java:254)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:284)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:128)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:693)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:531)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:388)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1234)
+	at com.example.demo.SpringBootRestCrudWebMVCAppApplication.main(SpringBootRestCrudWebMVCAppApplication.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Unable to load cache item
+	at org.springframework.cglib.core.internal.LoadingCache.createEntry(LoadingCache.java:79)
+	at org.springframework.cglib.core.internal.LoadingCache.get(LoadingCache.java:34)
+	at org.springframework.cglib.core.AbstractClassGenerator$ClassLoaderData.get(AbstractClassGenerator.java:116)
+	at org.springframework.cglib.core.AbstractClassGenerator.create(AbstractClassGenerator.java:291)
+	at org.springframework.cglib.proxy.Enhancer.createHelper(Enhancer.java:480)
+	at org.springframework.cglib.proxy.Enhancer.createClass(Enhancer.java:337)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer.createClass(ConfigurationClassEnhancer.java:138)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer.enhance(ConfigurationClassEnhancer.java:110)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.enhanceConfigurationClasses(ConfigurationClassPostProcessor.java:405)
+	... 17 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: ViewResolverRegistry
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethods(Class.java:1975)
+	at org.springframework.cglib.core.ReflectUtils.addAllMethods(ReflectUtils.java:416)
+	at org.springframework.cglib.proxy.Enhancer.getMethods(Enhancer.java:540)
+	at org.springframework.cglib.proxy.Enhancer.generateClass(Enhancer.java:575)
+	at org.springframework.cglib.transform.TransformingClassGenerator.generateClass(TransformingClassGenerator.java:33)
+	at org.springframework.cglib.core.DefaultGeneratorStrategy.generate(DefaultGeneratorStrategy.java:25)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanFactoryAwareGeneratorStrategy.generate(ConfigurationClassEnhancer.java:253)
+	at org.springframework.cglib.core.AbstractClassGenerator.generate(AbstractClassGenerator.java:329)
+	at org.springframework.cglib.proxy.Enhancer.generate(Enhancer.java:492)
+	at org.springframework.cglib.core.AbstractClassGenerator$ClassLoaderData$3.apply(AbstractClassGenerator.java:93)
+	at org.springframework.cglib.core.AbstractClassGenerator$ClassLoaderData$3.apply(AbstractClassGenerator.java:91)
+	at org.springframework.cglib.core.internal.LoadingCache$2.call(LoadingCache.java:54)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.springframework.cglib.core.internal.LoadingCache.createEntry(LoadingCache.java:61)
+	... 25 common frames omitted
+Caused by: java.lang.ClassNotFoundException: ViewResolverRegistry
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:148)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 41 common frames omitted
+2018-Mar-16 12:56:43.508 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - Starting SpringBootRestCrudWebMVCAppApplication on E5570-153 with PID 5576 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 12:56:43.510 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 12:56:44.563 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 12:56:44.570 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 12:56:44.643 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 12:56:44.645 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 12:56:45.522 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - Started SpringBootRestCrudWebMVCAppApplication in 2.103 seconds (JVM running for 427.54)
+2018-Mar-16 12:56:45.525 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 12:56:45.527 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 12:56:45.529 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 12:57:07.939 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - Starting SpringBootCrudWebMVCAppApplication on E5570-153 with PID 1292 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 12:57:07.940 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 12:57:10.378 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 12:57:10.396 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 12:57:10.739 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 12:57:10.768 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 12:57:11.994 ERROR [restartedMain] o.a.c.c.StandardService - Failed to start connector [Connector[HTTP/1.1-8090]]
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-8090]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:255)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:197)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:300)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.actuate.autoconfigure.web.server.ManagementContextAutoConfiguration$DifferentManagementContextConfiguration.afterSingletonsInstantiated(ManagementContextAutoConfiguration.java:141)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:777)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:388)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:327)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1234)
+	at com.example.demo.SpringBootCrudWebMVCAppApplication.main(SpringBootCrudWebMVCAppApplication.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1021)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 23 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1150)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:591)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1018)
+	... 24 common frames omitted
+2018-Mar-16 12:57:12.032 ERROR [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8090 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8090, or configure this application to listen on another port.
+
+2018-Mar-16 12:57:54.805 INFO  [http-nio-8080-exec-4] c.e.d.s.CustomerUserDetailsService - SpringBootRestSecurityLog:user Name:john
+2018-Mar-16 12:57:54.957 INFO  [http-nio-8080-exec-4] c.e.d.s.CustomerUserDetailsService - SpringBootRestSecurityLog:1
+2018-Mar-16 13:00:51.166 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - Starting SpringBootRestCrudWebMVCAppApplication on E5570-153 with PID 5576 (C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp\target\classes started by anji.r in C:\ADLA\Eclipse_kotta_workspace\SpringBootRestCrudWebMVCApp)
+2018-Mar-16 13:00:51.166 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - The following profiles are active: common,messages,database,logging,jsp,dev
+2018-Mar-16 13:00:52.154 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 13:00:52.161 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Creating BCryptPasswordEncoder Object
+2018-Mar-16 13:00:52.247 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Spring security validating the username, password and authorities against Database
+2018-Mar-16 13:00:52.249 INFO  [restartedMain] c.e.d.s.c.SpringSecurityConfig - SpringBootRestSecurityLog:Authorizing all the application urls with spring security using roles/authorities
+2018-Mar-16 13:00:52.770 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - Started SpringBootRestCrudWebMVCAppApplication in 1.721 seconds (JVM running for 674.779)
+2018-Mar-16 13:00:52.772 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 13:00:52.772 INFO  [restartedMain] c.e.d.SpringBootCrudWebMVCAppApplication - SpringBootRestSecurityLog:Datasource Name:HikariDataSource (null)
+2018-Mar-16 13:00:52.774 INFO  [restartedMain] c.e.d.SpringBootRestCrudWebMVCAppApplication - SpringBootRestSecurityLog:Welcome to  SpringBootRestCrudWebMVCAppApplication log message
+2018-Mar-16 13:03:59.563 INFO  [http-nio-8080-exec-3] c.e.d.s.CustomerUserDetailsService - SpringBootRestSecurityLog:user Name:john
+2018-Mar-16 13:03:59.688 INFO  [http-nio-8080-exec-3] c.e.d.s.CustomerUserDetailsService - SpringBootRestSecurityLog:1
