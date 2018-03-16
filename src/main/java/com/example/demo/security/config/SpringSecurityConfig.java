@@ -154,7 +154,7 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
 
 		httpSecurity.sessionManagement().maximumSessions(2);// Maximum number of concurrent sessions
 
-		httpSecurity.sessionManagement().invalidSessionUrl("/invalidSession.html");
+		httpSecurity.sessionManagement().invalidSessionUrl("/invalidSession");
 
 		httpSecurity.sessionManagement().sessionFixation().migrateSession();
 
