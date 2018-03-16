@@ -6,6 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.dao.DataAccessException;
 import org.springframework.http.MediaType;
+import org.springframework.security.core.context.SecurityContext;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -13,6 +15,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.servlet.ModelAndView;
 
 import com.example.demo.config.CustomConfigurationProperties;
 import com.example.demo.dao.impl.EmployeeDaoImpl;
@@ -79,10 +82,31 @@ public class SpringBootCrudMVCController {
 	 * @return default spring boot login page
 	 */
 	@RequestMapping(value = "/welcome", method = RequestMethod.GET)
-	public String login(Model model) {
+	public String welcome(Model model) {
 		// modelMap.put("message", "Welcome to Spring Boot Rest CRUD MVC App");
 		model.addAttribute("message", "Welcome to Spring Boot Rest CRUD MVC App");
-		return "home";
+		return "welcome";
+	}
+
+	/**
+	 * 
+	 * @return home page
+	 */
+	@RequestMapping(value = "/home", method = RequestMethod.GET)
+	public ModelAndView homePage() {
+		ModelAndView modelAndView = new ModelAndView();
+		modelAndView.setViewName("home");
+		// Get authenticated user name from SecurityContext
+		SecurityContext context = SecurityContextHolder.getContext();
+
+		modelAndView.addObject("message", "You are logged in as " + context.getAuthentication().getName());
+		// modelAndView.addObject("message", "Spring Boot Rest CRUD MVC App Home Page");
+		return modelAndView;
+	}
+	
+	@RequestMapping(value = "/login", method = RequestMethod.GET)
+	public String login(Model model) {
+		return "login";
 	}
 
 	/**

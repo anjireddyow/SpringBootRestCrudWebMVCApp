@@ -7,10 +7,12 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.security.authentication.BadCredentialsException;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
+import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
@@ -39,7 +41,7 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
 
 	@Autowired
 	private CustomAccessDeniedHandler customAccessDeniedHandler;
-	
+
 	/**
 	 * This method will indicate the BCrypt Password Encoder. This password encoder
 	 * should be used to encode the password.
@@ -100,7 +102,8 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
 	 * 
 	 */
 	protected void configure(AuthenticationManagerBuilder auth) throws Exception {
-		logger.info(CommonConstants.APP_NAME_FOR_LOG + "Spring security validating the username, password and authorities against Database");
+		logger.info(CommonConstants.APP_NAME_FOR_LOG
+				+ "Spring security validating the username, password and authorities against Database");
 		auth.userDetailsService(customUserDetailsService).passwordEncoder(bCryptPasswordEncoder());
 	}
 
@@ -108,19 +111,65 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
 	 * 
 	 */
 	public void configure(HttpSecurity httpSecurity) throws Exception {
-		logger.info(CommonConstants.APP_NAME_FOR_LOG + "Authorizing all the application urls with spring security using roles/authorities");
-		// Authorize all the urls with spring security
-		httpSecurity.authorizeRequests().antMatchers("/emp**").hasAnyRole("USER", "ADMIN")
-				.antMatchers("/add**", "/update**", "/delete**").hasAnyRole("ADMIN").anyRequest().authenticated().and()
-				.formLogin().permitAll().and().httpBasic()
-				.and().exceptionHandling().accessDeniedHandler(customAccessDeniedHandler);
-//				.and().exceptionHandling().accessDeniedPage("/accessDenied");
+		logger.info(CommonConstants.APP_NAME_FOR_LOG
+				+ "Authorizing all the application urls with spring security using roles/authorities");
 
-		httpSecurity.csrf().disable(); // Disables CSRF protection
+		httpSecurity.authorizeRequests().anyRequest().hasAnyRole("USER", "ADMIN").and().authorizeRequests()
+				.antMatchers("/login**").permitAll()
+				.and().formLogin().loginPage("/login") // Specifies the login page URL
+				.loginProcessingUrl("/signin") // Specifies the URL,which is used in action attribute on the <from> tag
+				.usernameParameter("username") // Username parameter, used in name attribute of the <input> tag in login jsp file. Default is 'username'.
+				.passwordParameter("passwd") // Password parameter, used in name attribute of the <input> tag login jsp file. Default is 'password'.
+				.successHandler((req, res, auth) -> { // Success handler invoked after successful authentication
+					for (GrantedAuthority authority : auth.getAuthorities()) {
+						System.out.println(authority.getAuthority());
+					}
+					System.out.println(auth.getName());
+					res.sendRedirect("/home"); // Redirect user to index/home page
+				})
+				// .defaultSuccessUrl("/") // URL, where user will go after authenticating
+				// successfully.
+				// Skipped if successHandler() is used.
+				.failureHandler((req, res, exp) -> { // Failure handler invoked after authentication failure
+					String errMsg = "";
+					if (exp.getClass().isAssignableFrom(BadCredentialsException.class)) {
+						errMsg = "Invalid username or password.";
+					} else {
+						errMsg = "Unknown error - " + exp.getMessage();
+					}
+					req.getSession().setAttribute("message", errMsg);
+					res.sendRedirect("/login"); // Redirect user to login page with error message.
+				})
+				// .failureUrl("/login?error") // URL, where user will go after authentication
+				// failure.
+				// Skipped if failureHandler() is used.
+				.permitAll() // Allow access to any URL associate to formLogin()
+				.and().logout().logoutUrl("/signout") // Specifies the logout URL, default URL is '/logout'
+				.logoutSuccessHandler((req, res, auth) -> { // Logout handler called after successful logout
+					req.getSession().setAttribute("message", "You are logged out successfully.");
+					res.sendRedirect("/login"); // Redirect user to login page with message.
+				})
+				// .logoutSuccessUrl("/login") // URL, where user will be redirect after
+				// successful
+				// logout. Ignored if logoutSuccessHandler() is used.
+				.permitAll() // Allow access to any URL associate to logout()
+				.and().csrf().disable(); // Disable CSRF support
 
-		httpSecurity.headers().frameOptions().disable(); // Disables X-Frame-Options in Spring Security for access to H2
-															// database console. By default, Spring Security will
-															// protect against CRSF attacks.
+		// // Authorize all the urls with spring security
+		// httpSecurity.authorizeRequests().antMatchers("/emp**").hasAnyRole("USER",
+		// "ADMIN")
+		// .antMatchers("/add**", "/update**",
+		// "/delete**").hasAnyRole("ADMIN").anyRequest().authenticated().and()
+		// .formLogin().permitAll().and().httpBasic()
+		// .and().exceptionHandling().accessDeniedHandler(customAccessDeniedHandler);
+		//// .and().exceptionHandling().accessDeniedPage("/accessDenied");
+		//
+		// httpSecurity.csrf().disable(); // Disables CSRF protection
+		//
+		// httpSecurity.headers().frameOptions().disable(); // Disables X-Frame-Options
+		// in Spring Security for access to H2
+		// // database console. By default, Spring Security will
+		// // protect against CRSF attacks.
 
 		// Allow all urls without spring security
 		// httpSecurity.authorizeRequests().anyRequest().permitAll().and().httpBasic().and().csrf().disable();
@@ -172,7 +221,7 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
 		// .deleteCookies("JSESSIONID")
 		// .permitAll();
 
-//		.and().exceptionHandling().accessDeniedPage("/Access_Denied");
+		// .and().exceptionHandling().accessDeniedPage("/Access_Denied");
 	}
 
 	/**

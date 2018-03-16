@@ -15,7 +15,5 @@
 	<link href="${jstlCss}" rel="stylesheet" />
 </head>
 <body>Welcome Message: ${message}
-</br>
-<a href='<spring:url value="/signout"/>'>Logout</a>
 </body>
 </html>
