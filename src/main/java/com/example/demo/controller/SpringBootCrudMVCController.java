@@ -12,6 +12,7 @@ import org.springframework.security.core.context.SecurityContext;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -77,6 +78,8 @@ public class SpringBootCrudMVCController {
 	}
 
 	/**
+	 * Model: It is an Interface. It defines a holder for model attributes and
+	 * primarily designed for adding attributes to the model.
 	 * 
 	 * @return default spring boot login page
 	 */
@@ -87,6 +90,8 @@ public class SpringBootCrudMVCController {
 	}
 
 	/**
+	 * ModelAndView is just a container for both a ModelMap and a view object. It
+	 * allows a controller to return both as a single value.
 	 * 
 	 * @return home page
 	 */
@@ -102,8 +107,19 @@ public class SpringBootCrudMVCController {
 		return modelAndView;
 	}
 
+	/**
+	 * ModelMap: Implementation of Map for use when building model data for use with
+	 * UI tools.Supports chained calls and generation of model attribute names.
+	 * 
+	 * @param model
+	 * @return
+	 */
 	@RequestMapping(value = "/login", method = RequestMethod.GET)
-	public String login(Model model) {
+	public String login(ModelMap modelMap) {
+		String helloWorldMessage = "Hello world!";
+		String welcomeMessage = "Welcome!";
+		modelMap.addAttribute("helloMessage", helloWorldMessage);
+		modelMap.addAttribute("welcomeMessage", welcomeMessage);
 		return "login";
 	}
 
