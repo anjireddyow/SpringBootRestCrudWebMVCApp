@@ -1,0 +1,243 @@
+<html>
+<body>
+
+https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/
+
+
+<div class="article js-hide-during-search">
+
+        <h2>Adding an existing project to GitHub using the command line</h2>
+
+        <div id="article-platform-nav" style="display: block;">
+  <ul>
+    <li class="platform-mac">
+      <a href="#platform-mac" data-platform="mac">
+        mac
+      </a>
+    </li>
+    <li class="platform-windows selected">
+      <a href="#platform-windows" data-platform="windows">
+        windows
+      </a>
+    </li>
+    <li class="platform-linux">
+      <a href="#platform-linux" data-platform="linux">
+        linux
+      </a>
+    </li>
+    <li class="platform-all hidden">
+      <a href="#platform-all" data-platform="all">
+        all
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+        <div class="article-body content-body wikistyle markdown-format">
+          <div class="intro">
+
+          <p>Putting your existing work on GitHub can let you share and collaborate in lots of great ways.</p>
+
+          </div>
+
+          <p>If you are migrating your project from CodePlex, read the <a href="https://aka.ms/codeplex-guide">migration guide</a> for more information.</p>
+
+<div class="alert tip">
+
+<p><strong>Tip:</strong> If you're most comfortable with a point-and-click user interface, try adding your project with GitHub Desktop. For more information, see "<a href="/desktop/guides/contributing-to-projects/adding-a-repository-from-your-local-computer-to-github-desktop">Adding a repository from your local computer to GitHub Desktop</a>" in the <em>GitHub Desktop Help</em>.</p>
+
+</div>
+
+<div class="alert warning">
+
+<p><strong>Warning:</strong> Never <code>git add</code>, <code>commit</code>, or <code>push</code> sensitive information to a remote repository. Sensitive information can include, but is not limited to:</p>
+
+<ul>
+<li>Passwords</li>
+<li>SSH keys</li>
+<li><a href="http://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSGettingStartedGuide/AWSCredentials.html">AWS access keys</a></li>
+<li>API keys</li>
+<li>Credit card numbers</li>
+<li>PIN numbers</li>
+</ul>
+
+<p>For more information, see "<a href="/articles/removing-sensitive-data-from-a-repository">Removing sensitive data from a repository</a>."</p>
+
+</div>
+
+<div class="platform-mac">
+
+<ol>
+<li><img src="/assets/images/help/repository/repo-create.png" alt="Create New Repository drop-down">
+<a href="/articles/creating-a-new-repository">Create a new repository</a> on GitHub. To avoid errors, do not initialize the new repository with <em>README</em>, license, or <code>gitignore</code> files. You can add these files after your project has been pushed to GitHub.
+
+</li>
+<li><p>Open <span class="platform-mac">Terminal</span><span class="platform-linux">Terminal</span><span class="platform-windows">Git Bash</span>.</p></li>
+<li><p>Change the current working directory to your local project.</p></li>
+<li>
+<p>Initialize the local directory as a Git repository.</p>
+
+<pre class="command-line"><span class="command">git init</span>
+</pre>
+</li>
+<li>
+<p>Add the files in your new local repository. This stages them for the first commit.</p>
+
+<pre class="command-line"><span class="command">git add .</span>
+<span class="comment"># Adds the files in the local repository and stages them for commit. To unstage a file, use 'git reset HEAD <em>YOUR-FILE</em>'.</span>
+</pre>
+</li>
+<li>
+<p>Commit the files that you've staged in your local repository.</p>
+
+<pre class="command-line"><span class="command">git commit -m "First commit"</span>
+<span class="comment"># Commits the tracked changes and prepares them to be pushed to a remote repository. To remove this commit and modify the file, use 'git reset --soft HEAD~1' and commit and add the file again.</span>
+</pre>
+</li>
+<li><p><img src="/assets/images/help/repository/copy-remote-repository-url-quick-setup.png" alt="Copy remote repository URL field">At the top of your GitHub repository's Quick Setup page, click <span class="octicon octicon-clippy" aria-label="The copy to clipboard icon " title="The copy to clipboard icon "></span> to copy the remote repository URL.
+</p></li>
+<li>
+<p>In Terminal, <a href="/articles/adding-a-remote">add the URL for the remote repository</a> where your local repository will be pushed.</p>
+
+<pre class="command-line"><span class="command">git remote add origin <em>remote repository URL</em></span>
+<span class="comment"># Sets the new remote</span>
+<span class="command">git remote -v</span>
+<span class="comment"># Verifies the new remote URL</span>
+</pre>
+</li>
+<li>
+<p><a href="/articles/pushing-to-a-remote">Push the changes</a> in your local repository to GitHub.</p>
+
+<pre class="command-line"><span class="command">git push -u origin master</span>
+<span class="comment"># Pushes the changes in your local repository up to the remote repository you specified as the origin</span>
+</pre>
+</li>
+</ol>
+
+</div>
+
+<div class="platform-windows">
+
+<ol>
+<li><img src="/assets/images/help/repository/repo-create.png" alt="Create New Repository drop-down">
+<a href="/articles/creating-a-new-repository">Create a new repository</a> on GitHub. To avoid errors, do not initialize the new repository with <em>README</em>, license, or <code>gitignore</code> files. You can add these files after your project has been pushed to GitHub.
+
+</li>
+<li><p>Open <span class="platform-mac">Terminal</span><span class="platform-linux">Terminal</span><span class="platform-windows">Git Bash</span>.</p></li>
+<li><p>Change the current working directory to your local project.</p></li>
+<li>
+<p>Initialize the local directory as a Git repository.</p>
+
+<pre class="command-line"><span class="command">git init</span>
+</pre>
+</li>
+<li>
+<p>Add the files in your new local repository. This stages them for the first commit.</p>
+
+<pre class="command-line"><span class="command">git add .</span>
+<span class="comment"># Adds the files in the local repository and stages them for commit. To unstage a file, use 'git reset HEAD <em>YOUR-FILE</em>'.</span>
+</pre>
+</li>
+<li>
+<p>Commit the files that you've staged in your local repository.</p>
+
+<pre class="command-line"><span class="command">git commit -m "First commit"</span>
+<span class="comment"># Commits the tracked changes and prepares them to be pushed to a remote repository. To remove this commit and modify the file, use 'git reset --soft HEAD~1' and commit and add the file again.</span>
+</pre>
+</li>
+<li><p><img src="/assets/images/help/repository/copy-remote-repository-url-quick-setup.png" alt="Copy remote repository URL field">At the top of your GitHub repository's Quick Setup page, click <span class="octicon octicon-clippy" aria-label="The copy to clipboard icon " title="The copy to clipboard icon "></span> to copy the remote repository URL.
+</p></li>
+<li>
+<p>In the Command prompt, <a href="/articles/adding-a-remote">add the URL for the remote repository</a> where your local repository will be pushed.</p>
+
+<pre class="command-line"><span class="command">git remote add origin <em>remote repository URL</em></span>
+<span class="comment"># Sets the new remote</span>
+<span class="command">git remote -v</span>
+<span class="comment"># Verifies the new remote URL</span>
+</pre>
+</li>
+<li>
+<p><a href="/articles/pushing-to-a-remote">Push the changes</a> in your local repository to GitHub.</p>
+
+<pre class="command-line"><span class="command">git push origin master</span>
+<span class="comment"># Pushes the changes in your local repository up to the remote repository you specified as the origin</span>
+</pre>
+</li>
+</ol>
+
+</div>
+
+<div class="platform-linux">
+
+<ol>
+<li><img src="/assets/images/help/repository/repo-create.png" alt="Create New Repository drop-down">
+<a href="/articles/creating-a-new-repository">Create a new repository</a> on GitHub. To avoid errors, do not initialize the new repository with <em>README</em>, license, or <code>gitignore</code> files. You can add these files after your project has been pushed to GitHub.
+
+</li>
+<li><p>Open <span class="platform-mac">Terminal</span><span class="platform-linux">Terminal</span><span class="platform-windows">Git Bash</span>.</p></li>
+<li><p>Change the current working directory to your local project.</p></li>
+<li>
+<p>Initialize the local directory as a Git repository.</p>
+
+<pre class="command-line"><span class="command">git init</span>
+</pre>
+</li>
+<li>
+<p>Add the files in your new local repository. This stages them for the first commit.</p>
+
+<pre class="command-line"><span class="command">git add .</span>
+<span class="comment"># Adds the files in the local repository and stages them for commit. To unstage a file, use 'git reset HEAD <em>YOUR-FILE</em>'.</span>
+</pre>
+</li>
+<li>
+<p>Commit the files that you've staged in your local repository.</p>
+
+<pre class="command-line"><span class="command">git commit -m "First commit"</span>
+<span class="comment"># Commits the tracked changes and prepares them to be pushed to a remote repository. To remove this commit and modify the file, use 'git reset --soft HEAD~1' and commit and add the file again.</span>
+</pre>
+</li>
+<li><p><img src="/assets/images/help/repository/copy-remote-repository-url-quick-setup.png" alt="Copy remote repository URL field">At the top of your GitHub repository's Quick Setup page, click <span class="octicon octicon-clippy" aria-label="The copy to clipboard icon " title="The copy to clipboard icon "></span> to copy the remote repository URL.
+</p></li>
+<li>
+<p>In Terminal, <a href="/articles/adding-a-remote">add the URL for the remote repository</a> where your local repository will be pushed.</p>
+
+<pre class="command-line"><span class="command">git remote add origin <em>remote repository URL</em></span>
+<span class="comment"># Sets the new remote</span>
+<span class="command">git remote -v</span>
+<span class="comment"># Verifies the new remote URL</span>
+</pre>
+</li>
+<li>
+<p><a href="/articles/pushing-to-a-remote">Push the changes</a> in your local repository to GitHub.</p>
+
+<pre class="command-line"><span class="command">git push origin master</span>
+<span class="comment"># Pushes the changes in your local repository up to the remote repository you specified as the origin</span>
+</pre>
+</li>
+</ol>
+
+</div>
+
+<h3>
+<a id="further-reading" class="anchor" href="#further-reading" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Further reading</h3>
+
+<ul>
+<li>"<a href="/articles/adding-a-file-to-a-repository-using-the-command-line">Adding a file to a repository using the command line</a>"</li>
+</ul>
+        </div>
+
+        <div class="support-footer">
+          <ul class="article-footer button-nav">
+            
+              <li><a href="https://github.com/contact" class="minibutton">
+                  <span class="octicon octicon-comment-discussion"></span>
+                  Contact a human
+                </a>
+              </li>
+            
+          </ul>
+        </div>
+      </div>
+	  </body>
+	  </html>
