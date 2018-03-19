@@ -150,12 +150,10 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
 		logger.info(CommonConstants.APP_NAME_FOR_LOG
 				+ "Authorizing all the application urls with spring security using roles/authorities");
 
+		// Session Management using spring security
 		httpSecurity.sessionManagement().sessionCreationPolicy(SessionCreationPolicy.IF_REQUIRED);
-
 		httpSecurity.sessionManagement().maximumSessions(2);// Maximum number of concurrent sessions
-
 		httpSecurity.sessionManagement().invalidSessionUrl("/invalidSession");
-
 		httpSecurity.sessionManagement().sessionFixation().migrateSession();
 
 		httpSecurity.authorizeRequests().anyRequest().hasAnyRole("USER", "ADMIN").and().authorizeRequests()
@@ -188,17 +186,17 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
 					}
 					req.getSession().invalidate();
 					req.setAttribute("message", errMsg);
-					res.sendRedirect(req.getContextPath() + "/login"); // Redirect user to login page with error
-																		// message.
+					res.sendRedirect(req.getContextPath() + "/login"); // Redirect user to login page with error message.
 				})
 				// .failureUrl("/login?error") // URL, where user will go after authentication
 				// failure.
 				// Skipped if failureHandler() is used.
 				.permitAll() // Allow access to any URL associate to formLogin()
-				.and().logout().deleteCookies("JSESSIONID").logoutUrl("/signout") // Specifies the logout URL, default
-																					// URL is '/logout'
+				.and().logout().deleteCookies("JSESSIONID").logoutUrl("/signout") // Specifies the logout URL, default URL is '/logout'
 				.logoutSuccessHandler((req, res, auth) -> { // Logout handler called after successful logout
-					req.getSession().setAttribute("message", "You are logged out successfully.");
+					req.getSession().invalidate();
+					req.setAttribute("message", "You are logged out successfully.");
+//					req.getSession().setAttribute("message", "You are logged out successfully.");
 					res.sendRedirect(req.getContextPath() + "/login"); // Redirect user to login page with message.
 				})
 				// .logoutSuccessUrl("/login") // URL, where user will be redirect after
