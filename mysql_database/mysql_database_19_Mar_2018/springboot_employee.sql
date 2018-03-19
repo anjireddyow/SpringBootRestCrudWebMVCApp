@@ -1,5 +1,3 @@
-CREATE DATABASE  IF NOT EXISTS `springboot` /*!40100 DEFAULT CHARACTER SET utf8 */;
-USE `springboot`;
 -- MySQL dump 10.13  Distrib 5.7.17, for Win64 (x86_64)
 --
 -- Host: localhost    Database: springboot
@@ -18,12 +16,29 @@ USE `springboot`;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Dumping events for database 'springboot'
+-- Table structure for table `employee`
 --
 
+DROP TABLE IF EXISTS `employee`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `employee` (
+  `employee_number` int(11) NOT NULL,
+  `employee_name` varchar(45) DEFAULT NULL,
+  `employee_position` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`employee_number`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
 --
--- Dumping routines for database 'springboot'
+-- Dumping data for table `employee`
 --
+
+LOCK TABLES `employee` WRITE;
+/*!40000 ALTER TABLE `employee` DISABLE KEYS */;
+INSERT INTO `employee` VALUES (1,'John','Analyst'),(2,'Peter','Tech lead'),(3,'Anna','Technical Analyst'),(4,'John4','Analyst324234223423sdfDSFSDFSDFsdfadsfadsf4'),(6,'John4','Analyst324234223423sdfDSFSDFSDFsdfadsfadsf4'),(8,'John4','Analyst324234223423sdfDSFSDFSDFsdfadsfadsf4'),(10,'John4','Analyst324234223423sdfDSFSDFSDFsdfadsfadsf4'),(12,'John4','Analyst324234223423sdfDSFSDFSDFsdfadsfadsf4'),(14,'John4','Analyst324234223423sdfDSFSDFSDFsdfadsfadsf4'),(16,'John4','Analyst324234223423sdfDSFSDFSDFsdfadsfadsf4');
+/*!40000 ALTER TABLE `employee` ENABLE KEYS */;
+UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -34,4 +49,4 @@ USE `springboot`;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-03-14 13:42:58
+-- Dump completed on 2018-03-19 11:19:01

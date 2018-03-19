@@ -1,5 +1,3 @@
-CREATE DATABASE  IF NOT EXISTS `springboot` /*!40100 DEFAULT CHARACTER SET utf8 */;
-USE `springboot`;
 -- MySQL dump 10.13  Distrib 5.7.17, for Win64 (x86_64)
 --
 -- Host: localhost    Database: springboot
@@ -18,13 +16,27 @@ USE `springboot`;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Dumping data for table `user_role`
+-- Table structure for table `role`
 --
 
-LOCK TABLES `user_role` WRITE;
-/*!40000 ALTER TABLE `user_role` DISABLE KEYS */;
-INSERT INTO `user_role` VALUES (1,1),(1,2),(2,2);
-/*!40000 ALTER TABLE `user_role` ENABLE KEYS */;
+DROP TABLE IF EXISTS `role`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `role` (
+  `role_id` int(11) NOT NULL,
+  `role` varchar(45) NOT NULL,
+  PRIMARY KEY (`role_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `role`
+--
+
+LOCK TABLES `role` WRITE;
+/*!40000 ALTER TABLE `role` DISABLE KEYS */;
+INSERT INTO `role` VALUES (1,'ADMIN'),(2,'USER');
+/*!40000 ALTER TABLE `role` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -36,4 +48,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-03-14 13:42:57
+-- Dump completed on 2018-03-19 11:19:01

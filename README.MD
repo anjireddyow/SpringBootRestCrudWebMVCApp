@@ -1,4 +1,8 @@
 Features included
+http://localhost:8080/springbootcrudwebmvc/home -- for user home page - peter/secret
+
+http://localhost:8080/springbootcrudwebmvc/homeadmin -- for admin home page - john/secret
+
 
 ## This application Login details please see the SpringSecurityConfig.java (or) users database
 john/secret - USER, ADMIN
